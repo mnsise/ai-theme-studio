@@ -1,11 +1,15 @@
 # 360Dialog AI Theme Studio
 
+<p align="center">
+  <img src="assets/AI%20Theme%20Studio%20Landing%20Banner.webp" alt="360Dialog AI Theme Studio — Build editable Elementor websites with AI" width="100%">
+</p>
+
 **Turn a brief and a few reference images into a complete, SEO-aware WordPress site — built as native, fully editable Elementor pages.**
 
 [![WordPress](https://img.shields.io/badge/WordPress-6.3%2B-blue.svg)](https://wordpress.org/)
 [![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4.svg)](https://www.php.net/)
 [![Elementor](https://img.shields.io/badge/Elementor-3.16%2B-92003B.svg)](https://elementor.com/)
-[![License](https://img.shields.io/badge/License-GPL--2.0--or--later-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-GPL--2.0--or--later-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
 
 AI Theme Studio is a WordPress plugin that plans, designs, and builds real Elementor documents from your project description and reference images. The output is not static HTML or screenshots — it is Flexbox containers, native widgets, global colors/typography, menus, SEO meta, and draft pages you can preview, edit, and publish when you are ready.
 
