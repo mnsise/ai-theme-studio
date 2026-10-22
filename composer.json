@@ -1,0 +1,19 @@
+{
+	"name": "ai-theme-studio/ai-theme-studio",
+	"description": "AI-assisted Elementor website builder for WordPress.",
+	"type": "wordpress-plugin",
+	"license": "GPL-2.0-or-later",
+	"require": {
+		"php": ">=8.0"
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9.6 || ^10.5 || ^11.0"
+	},
+	"scripts": {
+		"test": "phpunit",
+		"lint": "find . -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l"
+	},
+	"config": {
+		"sort-packages": true
+	}
+}

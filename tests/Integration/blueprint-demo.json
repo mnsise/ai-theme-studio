@@ -1,0 +1,33 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"preferredVersions": {
+		"php": "8.2",
+		"wp": "latest"
+	},
+	"steps": [
+		{
+			"step": "setSiteOptions",
+			"options": {
+				"permalink_structure": "/%postname%/"
+			}
+		},
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "wordpress.org/plugins",
+				"slug": "elementor"
+			},
+			"options": {
+				"activate": true
+			}
+		},
+		{
+			"step": "activatePlugin",
+			"pluginPath": "ai-theme-studio/ai-theme-studio.php"
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/wordpress/wp-content/plugins/ai-theme-studio/tests/Integration/demo-site.php';"
+		}
+	]
+}

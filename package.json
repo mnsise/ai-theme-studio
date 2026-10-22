@@ -1,0 +1,23 @@
+{
+	"name": "ai-theme-studio",
+	"version": "1.0.0",
+	"private": true,
+	"description": "Development tooling for the AI Theme Studio WordPress plugin (Lighthouse CI, WordPress Playground integration tests).",
+	"license": "GPL-2.0-or-later",
+	"engines": {
+		"node": ">=20"
+	},
+	"scripts": {
+		"lighthouse:mobile": "lhci autorun --config=./lighthouserc.cjs",
+		"lighthouse:desktop": "ATS_LH_PRESET=desktop lhci autorun --config=./lighthouserc.cjs",
+		"lighthouse": "npm run lighthouse:mobile && npm run lighthouse:desktop",
+		"i18n:extract": "node tools/extract-i18n.mjs",
+		"i18n:build-en": "node tools/extract-i18n.mjs && node tools/build-en-locale.mjs",
+		"test:unit": "vendor/bin/phpunit",
+		"test:integration": "bash tests/Integration/run.sh",
+		"test": "npm run test:unit && npm run test:integration"
+	},
+	"devDependencies": {
+		"@lhci/cli": "^0.15.1"
+	}
+}

@@ -1,0 +1,169 @@
+{
+	"sitemap": {
+		"pages": [
+			{
+				"key": "home",
+				"type": "home",
+				"title": "خانه",
+				"slug": "home",
+				"parent": null,
+				"menu_label": "خانه",
+				"in_menu": true,
+				"in_footer": false,
+				"order": 0,
+				"purpose": "معرفی کلینیک و دعوت به رزرو نوبت",
+				"noindex": false,
+				"sections": [ { "id": "hero", "type": "hero" }, { "id": "services", "type": "services" }, { "id": "faq", "type": "faq" }, { "id": "cta", "type": "cta" } ],
+				"seo": { "title": "کلینیک دندانپزشکی لبخند شیراز", "description": "خدمات ایمپلنت، ارتودنسی و زیبایی دندان در شیراز با رزرو آنلاین نوبت.", "focus_topic": "دندانپزشکی شیراز" }
+			},
+			{
+				"key": "services",
+				"type": "services",
+				"title": "خدمات",
+				"slug": "services",
+				"parent": null,
+				"menu_label": "خدمات",
+				"in_menu": true,
+				"in_footer": true,
+				"order": 1,
+				"purpose": "فهرست خدمات",
+				"noindex": false,
+				"sections": [ { "id": "hero", "type": "hero" }, { "id": "list", "type": "services" } ],
+				"seo": { "title": "خدمات دندانپزشکی", "description": "آشنایی با خدمات ایمپلنت، ارتودنسی و زیبایی دندان در کلینیک لبخند." }
+			},
+			{
+				"key": "implant",
+				"type": "service",
+				"title": "ایمپلنت",
+				"slug": "implant",
+				"parent": "services",
+				"menu_label": "",
+				"in_menu": true,
+				"in_footer": false,
+				"order": 2,
+				"purpose": "توضیح خدمت ایمپلنت",
+				"noindex": false,
+				"sections": [ { "id": "hero", "type": "hero" } ],
+				"seo": { "title": "ایمپلنت دندان", "description": "ایمپلنت دندان در کلینیک لبخند شیراز؛ مراحل، مراقبت‌ها و رزرو مشاوره." }
+			},
+			{
+				"key": "contact",
+				"type": "contact",
+				"title": "تماس با ما",
+				"slug": "contact",
+				"parent": null,
+				"menu_label": "تماس",
+				"in_menu": true,
+				"in_footer": true,
+				"order": 3,
+				"purpose": "راه‌های تماس",
+				"noindex": false,
+				"sections": [ { "id": "hero", "type": "hero" }, { "id": "form", "type": "contact" } ],
+				"seo": { "title": "تماس با کلینیک لبخند", "description": "نشانی، تلفن و فرم تماس کلینیک دندانپزشکی لبخند در شیراز." }
+			},
+			{
+				"key": "not_found",
+				"type": "not_found",
+				"title": "صفحه پیدا نشد",
+				"slug": "not-found",
+				"parent": null,
+				"menu_label": "",
+				"in_menu": true,
+				"in_footer": false,
+				"order": 9,
+				"purpose": "۴۰۴",
+				"noindex": false,
+				"sections": [ { "id": "message", "type": "not_found" } ],
+				"seo": { "title": "صفحه پیدا نشد", "description": "صفحه‌ای که دنبال آن بودید پیدا نشد؛ از منو یا جستجو استفاده کنید." }
+			}
+		],
+		"header_cta": { "text": "رزرو نوبت", "page_key": "contact" },
+		"footer": { "about_text": "کلینیک دندانپزشکی لبخند" }
+	},
+	"design": {
+		"colors": {
+			"primary": "#0E7490",
+			"secondary": "#164E63",
+			"accent": "#F59E0B",
+			"background": "#FFFFFF",
+			"surface": "#F0F9FF",
+			"text": "#334155",
+			"muted": "#526071",
+			"heading": "#0F172A",
+			"dark": "#0F172A",
+			"on_dark": "#F8FAFC",
+			"on_primary": "#FFFFFF",
+			"border": "#E2E8F0"
+		},
+		"typography": { "heading_font": "Vazirmatn", "body_font": "Vazirmatn", "base_size": 16, "scale": 1.25, "heading_weight": "700", "body_weight": "400", "line_height": 1.8 },
+		"radius": { "small": 6, "medium": 12, "button": 8 },
+		"spacing": { "section_padding": "lg", "gap": "md" },
+		"container_width": 1200,
+		"shadow": "soft",
+		"button_style": "solid",
+		"rationale": "آرام و قابل اعتماد"
+	},
+	"home": {
+		"key": "home",
+		"sections": [
+			{
+				"id": "hero",
+				"type": "hero",
+				"label": "معرفی",
+				"background": "surface",
+				"layout": { "direction": "row", "align": "start", "padding": "xl", "width": "boxed", "min_height": 70 },
+				"elements": [
+					{
+						"type": "group",
+						"direction": "column",
+						"width": 55,
+						"elements": [
+							{ "type": "heading", "level": "h1", "text": "لبخندی سالم و ماندگار در شیراز" },
+							{ "type": "text", "html": "<p>درمان‌های <strong>ایمپلنت</strong>، ارتودنسی و زیبایی با رزرو آنلاین.</p><script>alert(1)</script>" },
+							{ "type": "button", "text": "رزرو نوبت", "link": "page:contact", "style": "primary" },
+							{ "type": "button", "text": "خدمات ما", "link": "page:services", "style": "secondary" }
+						]
+					},
+					{ "type": "image", "image_ref": "img_1", "alt": "سالن انتظار کلینیک" }
+				]
+			},
+			{
+				"id": "services",
+				"type": "services",
+				"layout": { "direction": "column", "align": "center" },
+				"elements": [
+					{ "type": "heading", "level": "h4", "text": "خدمات ما" },
+					{
+						"type": "group",
+						"direction": "row",
+						"elements": [
+							{ "type": "icon_box", "icon": "fa-tooth", "title": "ایمپلنت", "description": "جایگزینی دائمی دندان", "link": "page:implant" },
+							{ "type": "icon_box", "icon": "not-an-icon", "title": "ارتودنسی", "description": "ردیف کردن دندان‌ها" },
+							{ "type": "icon_box", "icon": "star", "title": "زیبایی", "description": "لمینت و سفیدکردن" }
+						]
+					}
+				]
+			},
+			{
+				"id": "faq",
+				"type": "faq",
+				"elements": [
+					{ "type": "heading", "level": "h2", "text": "سؤالات متداول" },
+					{ "type": "accordion", "items": [ { "title": "ایمپلنت درد دارد؟", "content": "با بی‌حسی موضعی انجام می‌شود." }, { "title": "", "content": "حذف می‌شود" } ] },
+					{ "type": "testimonial", "text": "عالی بود", "name": "مشتری" }
+				]
+			},
+			{
+				"id": "cta",
+				"type": "cta",
+				"background": "primary",
+				"layout": { "align": "center" },
+				"elements": [
+					{ "type": "heading", "level": "h1", "text": "همین امروز نوبت بگیرید" },
+					{ "type": "button", "text": "تماس", "link": "javascript:alert(1)" },
+					{ "type": "image", "image_ref": "img_99", "alt": "ساختگی" }
+				]
+			}
+		]
+	}
+}

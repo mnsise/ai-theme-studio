@@ -1,0 +1,1950 @@
+# Copyright (C) 2026 AI Theme Studio
+# This file is distributed under the GPL-2.0-or-later.
+msgid ""
+msgstr ""
+"Project-Id-Version: AI Theme Studio 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-22 09:48+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Domain: ai-theme-studio\n"
+"X-Generator: extract-i18n.mjs\n"
+
+#: admin/js/app.js:775
+msgid "(شامل نشان تجاری دیگران)"
+msgstr ""
+
+#: admin/js/app.js:651
+msgid "%1$d از %2$d صفحه"
+msgstr ""
+
+#: admin/js/app.js:473
+msgid "%1$d از %2$d نویسه"
+msgstr ""
+
+#: admin/js/app.js:1045
+msgid "%d پیوند"
+msgstr ""
+
+#: admin/js/app.js:642
+msgid "%d تصویر بارگذاری شده است."
+msgstr ""
+
+#: admin/js/app.js:1289
+msgid "%d صفحه منتشر شد."
+msgstr ""
+
+#: admin/js/app.js:1166
+msgid "%d عنصر"
+msgstr ""
+
+#: admin/js/app.js:794
+msgid "%s بزرگ‌تر از حد مجاز است."
+msgstr ""
+
+#: includes/Media/ImageUploader.php:52
+msgid "آپلود فایل ناموفق بود."
+msgstr ""
+
+#: admin/js/app.js:293
+msgid "آخرین تغییر"
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:31
+msgid "آخرین نوشته‌ها (AI Theme Studio)"
+msgstr ""
+
+#: includes/AI/Providers/OpenAICompatibleProvider.php:37
+msgid "آدرس پایه (Base URL) سرویس سازگار با OpenAI معتبر نیست؛ باید با https:// شروع شود."
+msgstr ""
+
+#: admin/js/app.js:396
+msgid "آدرس پایه API (فقط HTTPS)"
+msgstr ""
+
+#: admin/js/app.js:439
+msgid "آزمون اتصال"
+msgstr ""
+
+#: admin/js/app.js:1237
+msgid "آزمون دوباره"
+msgstr ""
+
+#: admin/js/app.js:1213
+msgid "آزمون واقعی PageSpeed Insights"
+msgstr ""
+
+#: includes/Performance/PageSpeedClient.php:74
+msgid "آزمون PageSpeed ناموفق بود: %s"
+msgstr ""
+
+#: admin/js/app.js:188
+msgid "آژانس"
+msgstr ""
+
+#: admin/js/app.js:128
+#: includes/Generation/Pipeline.php:48
+msgid "آماده بررسی"
+msgstr ""
+
+#: admin/js/app.js:642
+msgid "آماده شروع"
+msgstr ""
+
+#: admin/js/app.js:194
+msgid "آموزشی"
+msgstr ""
+
+#: includes/Media/ImageUploader.php:72
+msgid "ابعاد تصویر باید بین %1$d و %2$d پیکسل باشد."
+msgstr ""
+
+#: includes/REST/SiteController.php:153
+msgid "اتصال برقرار است اما پاسخ مدل مطابق انتظار نبود."
+msgstr ""
+
+#: includes/REST/SiteController.php:152
+msgid "اتصال برقرار است و مدل خروجی JSON معتبر برگرداند."
+msgstr ""
+
+#: admin/js/app.js:1237
+msgid "اجرای آزمون"
+msgstr ""
+
+#: admin/js/app.js:1144
+msgid "اجرای دوباره بررسی"
+msgstr ""
+
+#: admin/js/app.js:393
+#: admin/js/app.js:584
+msgid "اختیاری"
+msgstr ""
+
+#: admin/js/app.js:457
+msgid "اختیاری؛ بدون کلید، سهمیه عمومی گوگل استفاده می‌شود."
+msgstr ""
+
+#: admin/js/app.js:668
+msgid "ادامه از همان مرحله"
+msgstr ""
+
+#: admin/js/app.js:1029
+msgid "ادامه می‌دهید؟"
+msgstr ""
+
+#. translators: %s: error message
+#: includes/AI/Providers/AbstractProvider.php:124
+msgid "ارتباط با سرویس هوش مصنوعی برقرار نشد: %s"
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:104
+#: includes/Elementor/Widgets/PostsGrid.php:111
+msgid "استایل"
+msgstr ""
+
+#: admin/js/app.js:437
+msgid "استفاده از حالت خروجی JSON سرویس (در صورت پشتیبانی)"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:63
+msgid "استودیو قالب"
+msgstr ""
+
+#: admin/views/app.php:11
+#: includes/Admin/AdminPage.php:62
+msgid "استودیو قالب هوشمند"
+msgstr ""
+
+#: admin/js/app.js:568
+msgid "اطلاعات تماس واقعی (اختیاری)"
+msgstr ""
+
+#: admin/js/app.js:1165
+msgid "اعتبارسنجی ساختار المنتور"
+msgstr ""
+
+#: admin/js/app.js:1115
+#: admin/js/app.js:1125
+msgid "اعمال منو"
+msgstr ""
+
+#: admin/js/app.js:937
+msgid "افزودن بخش"
+msgstr ""
+
+#: admin/js/app.js:964
+msgid "افزودن صفحه"
+msgstr ""
+
+#: admin/js/app.js:1091
+msgid "افزودن موارد به یک منوی موجود"
+msgstr ""
+
+#: admin/js/app.js:353
+msgid "افزونه سئو"
+msgstr ""
+
+#: admin/js/app.js:352
+msgid "افزونه فرم تماس"
+msgstr ""
+
+#. translators: %s: required PHP version
+#: ai-theme-studio.php:37
+msgid "افزونه AI Theme Studio به PHP نسخه %s یا بالاتر نیاز دارد."
+msgstr ""
+
+#: admin/js/app.js:436
+msgid "اگر مدل از تصویر پشتیبانی نکند، تحلیل انجام نمی‌شود و این موضوع صادقانه گزارش می‌شود."
+msgstr ""
+
+#: admin/js/app.js:347
+msgid "المنتور"
+msgstr ""
+
+#: admin/js/app.js:349
+msgid "المنتور پرو"
+msgstr ""
+
+#: includes/Elementor/Compatibility.php:183
+msgid "المنتور پرو فعال نیست: هدر و فوتر به‌صورت قالب‌های قابل‌ویرایش المنتور ساخته و روی صفحات تولیدشده (قالب Canvas) نمایش داده می‌شوند. قالب‌های Theme Builder (هدر سراسری، نوشته تکی، بایگانی) فقط با المنتور پرو در دسترس است."
+msgstr ""
+
+#: includes/Elementor/Compatibility.php:173
+msgid "المنتور نصب است اما فعال نیست."
+msgstr ""
+
+#: includes/Elementor/Compatibility.php:171
+msgid "المنتور نصب نیست. برای ساخت صفحات قابل‌ویرایش، افزونه رایگان Elementor را نصب و فعال کنید."
+msgstr ""
+
+#: admin/js/app.js:210
+msgid "الهام سبک"
+msgstr ""
+
+#: admin/js/app.js:1156
+msgid "امتیاز بررسی داخلی (این عدد امتیاز Lighthouse نیست)"
+msgstr ""
+
+#: admin/js/app.js:1194
+msgid "امتیازهای Lighthouse فقط از اجرای واقعی PageSpeed Insights یا Lighthouse CI نمایش داده می‌شوند. بررسی داخلی زیر، خطرات شناخته‌شده عملکرد را در ساختار صفحات می‌سنجد و جایگزین آزمون واقعی نیست."
+msgstr ""
+
+#: admin/js/app.js:611
+#: admin/js/app.js:678
+#: admin/js/app.js:1284
+msgid "انتشار"
+msgstr ""
+
+#: admin/js/app.js:1292
+msgid "انتشار این صفحات ناموفق بود: "
+msgstr ""
+
+#: admin/js/app.js:1274
+msgid "انتشار سایت"
+msgstr ""
+
+#: includes/REST/SiteController.php:372
+msgid "انتشار نیاز به تأیید صریح دارد."
+msgstr ""
+
+#: admin/js/app.js:914
+msgid "انتقال به بالا"
+msgstr ""
+
+#: includes/REST/ProjectController.php:68
+msgid "ایجاد پروژه ناموفق بود."
+msgstr ""
+
+#: admin/js/app.js:570
+msgid "ایمیل"
+msgstr ""
+
+#: includes/Generation/SectionRegenerator.php:83
+msgid "این بخش در المنتور ویرایش شده است. بازتولید، ویرایش‌های این بخش را جایگزین می‌کند (نسخه پشتیبان ذخیره می‌شود)."
+msgstr ""
+
+#: admin/js/app.js:996
+msgid "این رنگ‌ها به‌عنوان رنگ‌های Global المنتور با پیشوند ATS ثبت شده‌اند و رنگ‌های فعلی سایت تغییر نکرده‌اند. اعمال آن‌ها به‌عنوان رنگ‌های اصلی سایت در مرحله انتشار و با تأیید شما انجام می‌شود."
+msgstr ""
+
+#: admin/views/app.php:15
+msgid "این صفحه به جاوااسکریپت نیاز دارد."
+msgstr ""
+
+#: includes/Generation/SectionRegenerator.php:224
+msgid "این صفحه در المنتور ویرایش شده است؛ برای جایگزینی، بازتولید را با تأیید انجام دهید."
+msgstr ""
+
+#: includes/Generation/SectionRegenerator.php:74
+msgid "این صفحه در المنتور ویرایش شده است. بازتولید کامل، ویرایش‌های شما را جایگزین می‌کند (نسخه پشتیبان ذخیره می‌شود)."
+msgstr ""
+
+#: includes/Generation/SectionRegenerator.php:57
+msgid "این صفحه هنوز تولید نشده است."
+msgstr ""
+
+#: includes/SEO/Auditor.php:82
+msgid "این صفحه noindex است و در نتایج جستجو نمایش داده نمی‌شود."
+msgstr ""
+
+#: includes/REST/ProjectController.php:298
+msgid "این عملیات قابل ازسرگیری نیست."
+msgstr ""
+
+#: admin/js/app.js:444
+msgid "با پشتیبانی تصویر"
+msgstr ""
+
+#: admin/js/app.js:1060
+msgid "بازتولید این بخش"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:49
+msgid "بازتولید بخش"
+msgstr ""
+
+#: includes/REST/SiteController.php:202
+msgid "بازتولید پس از پایان تولید اولیه امکان‌پذیر است."
+msgstr ""
+
+#: admin/js/app.js:1054
+#: includes/Generation/Pipeline.php:50
+msgid "بازتولید صفحه"
+msgstr ""
+
+#: admin/js/app.js:1320
+msgid "بازگردانی"
+msgstr ""
+
+#: admin/js/app.js:1296
+msgid "بازگردانی انتشار"
+msgstr ""
+
+#: admin/js/app.js:1323
+msgid "بازگردانی شد."
+msgstr ""
+
+#: includes/Performance/Auditor.php:84
+msgid "بخش اول صفحه تصویر پس‌زمینه دارد؛ تصاویر پس‌زمینه CSS دیر کشف می‌شوند و LCP را کند می‌کنند. ترجیحاً از ویجت تصویر استفاده کنید."
+msgstr ""
+
+#: includes/Generation/SectionRegenerator.php:64
+msgid "بخش موردنظر پیدا نشد."
+msgstr ""
+
+#: admin/js/app.js:932
+msgid "بخش‌ها"
+msgstr ""
+
+#: admin/js/app.js:1059
+msgid "بخش‌ها (%d)"
+msgstr ""
+
+#: admin/js/app.js:269
+msgid "بخش‌های استودیو"
+msgstr ""
+
+#: admin/js/app.js:1280
+msgid "بدون المنتور پرو، هدر و فوتر فقط روی صفحات ساخته‌شده نمایش داده می‌شوند."
+msgstr ""
+
+#: admin/js/app.js:444
+msgid "بدون پشتیبانی تصویر"
+msgstr ""
+
+#: admin/js/app.js:885
+msgid "بدون والد"
+msgstr ""
+
+#: admin/js/app.js:1250
+msgid "برای آزمون Lighthouse روی محیط محلی یا staging (صفحات باید منتشرشده و بدون ورود قابل دسترس باشند)، از lighthouserc.cjs همراه افزونه استفاده کنید (docs/LIGHTHOUSE.md)."
+msgstr ""
+
+#: admin/js/app.js:1259
+msgid "برای انتشار، دسترسی انتشار برگه‌ها لازم است."
+msgstr ""
+
+#: includes/Jobs/Runner.php:78
+msgid "برای این پروژه یک عملیات در حال اجراست. تا پایان آن صبر کنید یا آن را لغو کنید."
+msgstr ""
+
+#: includes/Generation/Publisher.php:60
+msgid "برای تغییر تنظیمات سراسری سایت دسترسی کافی ندارید."
+msgstr ""
+
+#: admin/js/app.js:427
+msgid "برای حفظ کلید فعلی خالی بگذارید."
+msgstr ""
+
+#. translators: %s: minimum version
+#: includes/Generation/Pipeline.php:645
+msgid "برای ساخت صفحات، المنتور نسخه %s یا بالاتر باید نصب و فعال باشد. طرح و محتوای تولیدشده ذخیره شده است؛ پس از فعال‌سازی المنتور «ادامه/تلاش مجدد» را بزنید."
+msgstr ""
+
+#: admin/js/app.js:1088
+msgid "برای ساخت یا تغییر منو، دسترسی «edit_theme_options» لازم است."
+msgstr ""
+
+#: admin/js/app.js:881
+#: admin/js/app.js:928
+msgid "برچسب منو"
+msgstr ""
+
+#: admin/js/app.js:1199
+msgid "بررسی داخلی عملکرد"
+msgstr ""
+
+#: admin/js/app.js:1155
+msgid "بررسی سئو"
+msgstr ""
+
+#: admin/js/app.js:672
+msgid "بررسی و تأیید نقشه سایت"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:47
+msgid "بررسی‌های کیفیت"
+msgstr ""
+
+#: admin/js/app.js:341
+msgid "بله"
+msgstr ""
+
+#: includes/Performance/Auditor.php:99
+msgid "بیش از دو خانواده فونت استفاده شده است."
+msgstr ""
+
+#: includes/AI/Providers/AnthropicProvider.php:95
+#: includes/AI/Providers/GeminiProvider.php:88
+#: includes/AI/Providers/OpenAIProvider.php:104
+msgid "پاسخ مدل خالی یا نامعتبر بود."
+msgstr ""
+
+#: includes/AI/Providers/AbstractProvider.php:148
+msgid "پاسخی از سرویس هوش مصنوعی دریافت نشد."
+msgstr ""
+
+#: includes/WordPress/PostTypes.php:26
+msgid "پروژه"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:80
+#: includes/Generation/Publisher.php:53
+msgid "پروژه پیدا نشد."
+msgstr ""
+
+#: admin/js/app.js:261
+#: admin/js/app.js:586
+#: includes/Admin/AdminPage.php:72
+msgid "پروژه جدید"
+msgstr ""
+
+#: admin/js/app.js:847
+msgid "پروژه و تاریخچه آن حذف شود؟ صفحات ساخته‌شده در وردپرس باقی می‌مانند."
+msgstr ""
+
+#: admin/js/app.js:283
+msgid "پروژه‌ها"
+msgstr ""
+
+#: includes/WordPress/PostTypes.php:25
+msgid "پروژه‌های AI Theme Studio"
+msgstr ""
+
+#: admin/js/app.js:195
+msgid "پزشکی و سلامت"
+msgstr ""
+
+#: admin/js/app.js:586
+msgid "پس از ذخیره، می‌توانید تصاویر مرجع (لوگو، نمونه طراحی، محصولات…) را بارگذاری کنید و سپس تولید را آغاز کنید."
+msgstr ""
+
+#: admin/js/app.js:209
+#: admin/js/app.js:485
+msgid "پس‌زمینه"
+msgstr ""
+
+#: admin/js/app.js:355
+msgid "پشتیبانی از تحلیل تصویر"
+msgstr ""
+
+#: includes/Generation/Publisher.php:56
+msgid "پیش از انتشار، تولید باید کامل شده باشد."
+msgstr ""
+
+#: admin/js/app.js:1263
+msgid "پیش از انتشار، تولید باید کامل شود."
+msgstr ""
+
+#: admin/js/app.js:575
+msgid "پیش از تولید صفحات، نقشه سایت را بررسی و ویرایش می‌کنم"
+msgstr ""
+
+#: admin/js/app.js:1316
+msgid "پیش از هر بازنویسی، محتوای قبلی المنتور ذخیره می‌شود."
+msgstr ""
+
+#: admin/js/app.js:649
+msgid "پیشرفت تولید"
+msgstr ""
+
+#: admin/js/app.js:1050
+msgid "پیش‌نمایش"
+msgstr ""
+
+#: admin/js/app.js:125
+msgid "پیش‌نویس"
+msgstr ""
+
+#: admin/js/app.js:1075
+msgid "پیشنهاد منو پس از ساخت نقشه سایت آماده می‌شود."
+msgstr ""
+
+#: includes/WordPress/MenuManager.php:126
+msgid "پیشنهاد منو هنوز ساخته نشده است."
+msgstr ""
+
+#: admin/js/app.js:481
+#: admin/js/app.js:493
+msgid "پیشنهاد هوش مصنوعی"
+msgstr ""
+
+#: includes/SEO/Auditor.php:109
+msgid "پیوند «%s» مقصد ندارد."
+msgstr ""
+
+#: includes/SEO/Auditor.php:124
+msgid "پیوند داخلی به مقصد نامعتبر اشاره می‌کند: %s"
+msgstr ""
+
+#: admin/js/app.js:356
+msgid "پیوندهای یکتا"
+msgstr ""
+
+#: admin/js/app.js:325
+msgid "پیوندهای یکتا روی حالت «ساده» است؛ برای سئو بهتر، ساختار «نام نوشته» را در تنظیمات > پیوندهای یکتا انتخاب کنید."
+msgstr ""
+
+#: admin/js/app.js:1275
+msgid "تا این لحظه همه صفحات پیش‌نویس هستند و هیچ تغییری در سایت عمومی شما ایجاد نشده است."
+msgstr ""
+
+#: includes/REST/ProjectController.php:105
+msgid "تا پایان عملیات جاری نمی‌توان ورودی را تغییر داد."
+msgstr ""
+
+#: admin/js/app.js:612
+msgid "تاریخچه"
+msgstr ""
+
+#: admin/js/app.js:1332
+msgid "تاریخچه دستورها"
+msgstr ""
+
+#: admin/js/app.js:1002
+msgid "تایپوگرافی"
+msgstr ""
+
+#: admin/js/app.js:973
+msgid "تأیید و ادامه تولید"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:42
+msgid "تحلیل تصاویر"
+msgstr ""
+
+#: admin/js/app.js:436
+msgid "تحلیل تصویر"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:41
+msgid "تحلیل نیازمندی‌ها"
+msgstr ""
+
+#: admin/js/app.js:554
+msgid "ترجیحات طراحی"
+msgstr ""
+
+#: admin/js/app.js:186
+#: admin/js/app.js:202
+msgid "تشخیص خودکار"
+msgstr ""
+
+#: admin/js/app.js:293
+msgid "تصاویر"
+msgstr ""
+
+#: admin/js/app.js:790
+msgid "تصاویر را اینجا رها کنید یا انتخاب کنید (JPEG، PNG، WebP)"
+msgstr ""
+
+#: admin/js/app.js:745
+msgid "تصاویر مرجع"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:331
+msgid "تصویر %s شامل نشان تجاری دیگران است؛ فقط به‌عنوان الهام طراحی استفاده شد و در سایت قرار نگرفت."
+msgstr ""
+
+#: includes/Generation/Pipeline.php:269
+msgid "تصویر %s قابل آماده‌سازی برای تحلیل نبود و نادیده گرفته شد."
+msgstr ""
+
+#: admin/js/app.js:204
+msgid "تصویر اصلی (Hero)"
+msgstr ""
+
+#: includes/REST/ProjectController.php:187
+#: includes/REST/ProjectController.php:200
+msgid "تصویر پیدا نشد."
+msgstr ""
+
+#: includes/SEO/Auditor.php:101
+msgid "تصویری بدون متن جایگزین (alt) وجود دارد. اگر تصویر تزئینی نیست، alt توصیفی اضافه کنید."
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:63
+msgid "تعداد"
+msgstr ""
+
+#: includes/REST/ProjectController.php:155
+msgid "تعداد آپلودها بیش از حد مجاز است؛ کمی بعد دوباره تلاش کنید."
+msgstr ""
+
+#: includes/REST/SiteController.php:128
+msgid "تعداد آزمون‌ها بیش از حد مجاز است؛ کمی بعد تلاش کنید."
+msgstr ""
+
+#: includes/REST/SiteController.php:350
+msgid "تعداد آزمون‌ها بیش از حد مجاز است."
+msgstr ""
+
+#: includes/Performance/Auditor.php:77
+msgid "تعداد تخمینی گره‌های DOM حدود %d است (بیش از ۱۴۰۰ در Lighthouse هشدار می‌گیرد)."
+msgstr ""
+
+#: includes/REST/SiteController.php:214
+msgid "تعداد درخواست‌ها در این ساعت بیش از حد مجاز است."
+msgstr ""
+
+#: includes/REST/ProjectController.php:227
+msgid "تعداد درخواست‌های تولید در این ساعت بیش از حد مجاز است."
+msgstr ""
+
+#: admin/js/app.js:174
+msgid "تعرفه‌ها"
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:88
+msgid "تگ عنوان"
+msgstr ""
+
+#: admin/js/app.js:438
+msgid "تلاش مجدد"
+msgstr ""
+
+#: admin/js/app.js:658
+msgid "تلاش مجدد خودکار: %d"
+msgstr ""
+
+#: admin/js/app.js:570
+msgid "تلفن"
+msgstr ""
+
+#: admin/js/app.js:172
+msgid "تماس"
+msgstr ""
+
+#: admin/js/app.js:265
+#: includes/Admin/AdminPage.php:73
+msgid "تنظیمات"
+msgstr ""
+
+#: admin/js/app.js:418
+msgid "تنظیمات ذخیره شد."
+msgstr ""
+
+#: admin/js/app.js:1250
+msgid "تنظیمات عملکرد المنتور"
+msgstr ""
+
+#: includes/Performance/Auditor.php:80
+msgid "تودرتویی کانتینرها زیاد است؛ گروه‌های غیرضروری را حذف کنید."
+msgstr ""
+
+#: admin/js/app.js:957
+msgid "توضیح این صفحه را بنویسید تا در نتایج جستجو نمایش داده شود."
+msgstr ""
+
+#: admin/js/app.js:901
+msgid "توضیح بخش"
+msgstr ""
+
+#: admin/js/app.js:547
+msgid "توضیح سایت"
+msgstr ""
+
+#: admin/js/app.js:549
+msgid "توضیحات"
+msgstr ""
+
+#: includes/REST/ProjectController.php:502
+msgid "توضیحات حداکثر می‌تواند %d نویسه باشد."
+msgstr ""
+
+#: includes/REST/ProjectController.php:215
+msgid "توضیحات سایت خالی است."
+msgstr ""
+
+#: includes/SEO/Auditor.php:69
+msgid "توضیحات متا تعریف نشده است."
+msgstr ""
+
+#: includes/SEO/Auditor.php:144
+msgid "توضیحات متای تکراری بین صفحات: %s"
+msgstr ""
+
+#: admin/js/app.js:716
+msgid "تولید دوباره کل سایت"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:44
+msgid "تولید سیستم طراحی"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:45
+msgid "تولید صفحات"
+msgstr ""
+
+#: admin/js/app.js:508
+msgid "تیز"
+msgstr ""
+
+#: admin/js/app.js:177
+#: admin/js/app.js:207
+msgid "تیم"
+msgstr ""
+
+#: admin/js/app.js:507
+msgid "جادار"
+msgstr ""
+
+#: admin/js/app.js:1132
+msgid "جایگاه %s منوی دیگری دارد و تغییر نکرد."
+msgstr ""
+
+#: admin/js/app.js:1120
+msgid "جایگاه‌های منو در قالب"
+msgstr ""
+
+#: admin/js/app.js:1121
+msgid "جایگاه‌هایی که منوی دیگری دارند هم جایگزین شوند (منوی قبلی حذف نمی‌شود)"
+msgstr ""
+
+#: admin/js/app.js:551
+msgid "جهت"
+msgstr ""
+
+#: admin/js/app.js:479
+msgid "چپ‌به‌راست"
+msgstr ""
+
+#: admin/js/app.js:1020
+msgid "چه تغییری در این بخش می‌خواهید؟ (اختیاری)"
+msgstr ""
+
+#: admin/js/app.js:1020
+msgid "چه تغییری در این صفحه می‌خواهید؟ (اختیاری)"
+msgstr ""
+
+#: includes/Media/ImageUploader.php:60
+msgid "حجم تصویر باید کمتر از %d مگابایت باشد."
+msgstr ""
+
+#: includes/AI/Providers/AbstractProvider.php:187
+msgid "حجم درخواست بیش از حد مجاز است. تعداد یا اندازه تصاویر را کاهش دهید."
+msgstr ""
+
+#: admin/js/app.js:348
+msgid "حداقل نسخه المنتور"
+msgstr ""
+
+#: includes/REST/ProjectController.php:152
+msgid "حداکثر %d تصویر برای هر پروژه مجاز است."
+msgstr ""
+
+#: admin/js/app.js:455
+msgid "حداکثر تصویر در پروژه"
+msgstr ""
+
+#: admin/js/app.js:438
+msgid "حداکثر توکن خروجی"
+msgstr ""
+
+#: admin/js/app.js:455
+msgid "حداکثر حجم تصویر (MB)"
+msgstr ""
+
+#: admin/js/app.js:776
+msgid "حذف از پروژه"
+msgstr ""
+
+#: admin/js/app.js:918
+msgid "حذف بخش"
+msgstr ""
+
+#: admin/js/app.js:846
+msgid "حذف پروژه"
+msgstr ""
+
+#: includes/REST/ProjectController.php:128
+msgid "حذف پروژه نیاز به تأیید دارد."
+msgstr ""
+
+#: admin/js/app.js:942
+msgid "حذف صفحه"
+msgstr ""
+
+#: admin/js/app.js:428
+msgid "حذف کلید ذخیره‌شده"
+msgstr ""
+
+#: admin/js/app.js:178
+msgid "حریم خصوصی"
+msgstr ""
+
+#: admin/js/app.js:165
+msgid "خانه"
+msgstr ""
+
+#: admin/js/app.js:167
+msgid "خدمات"
+msgstr ""
+
+#: admin/js/app.js:456
+msgid "خروجی متا و داده ساختاریافته وقتی هیچ افزونه سئو فعال نیست"
+msgstr ""
+
+#. translators: %s: validation errors
+#: includes/AI/StructuredGenerator.php:150
+msgid "خروجی مدل با ساختار مورد انتظار مطابقت نداشت: %s"
+msgstr ""
+
+#: includes/AI/JsonExtractor.php:49
+msgid "خروجی مدل JSON معتبر نبود."
+msgstr ""
+
+#: includes/AI/Providers/AbstractProvider.php:194
+msgid "خطای سرویس هوش مصنوعی (%1$d): %2$s"
+msgstr ""
+
+#: admin/js/app.js:72
+msgid "خطای ناشناخته رخ داد."
+msgstr ""
+
+#: admin/js/app.js:384
+msgid "خودکار (بر اساس نام مدل)"
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:76
+msgid "خودکار (منوی پروژه)"
+msgstr ""
+
+#: admin/js/app.js:479
+msgid "خودکار بر اساس زبان"
+msgstr ""
+
+#: admin/js/app.js:342
+msgid "خیر"
+msgstr ""
+
+#: includes/REST/ProjectController.php:334
+msgid "داده نقشه سایت نامعتبر است."
+msgstr ""
+
+#: admin/js/app.js:260
+#: includes/Admin/AdminPage.php:71
+msgid "داشبورد"
+msgstr ""
+
+#: admin/js/app.js:753
+msgid "در آخرین اجرا تصاویر تحلیل نشدند چون مدل از تصویر پشتیبانی نمی‌کرد."
+msgstr ""
+
+#: admin/js/app.js:441
+msgid "در حال آزمون…"
+msgstr ""
+
+#: admin/js/app.js:133
+msgid "در حال اجرا"
+msgstr ""
+
+#: admin/js/app.js:797
+msgid "در حال بارگذاری %s…"
+msgstr ""
+
+#: admin/views/app.php:13
+msgid "در حال بارگذاری…"
+msgstr ""
+
+#: admin/js/app.js:126
+msgid "در حال تولید"
+msgstr ""
+
+#: admin/js/app.js:132
+msgid "در صف"
+msgstr ""
+
+#: admin/js/app.js:930
+msgid "در فوتر"
+msgstr ""
+
+#: admin/js/app.js:927
+msgid "در منو"
+msgstr ""
+
+#: admin/js/app.js:930
+msgid "در منوی اصلی"
+msgstr ""
+
+#: admin/js/app.js:166
+msgid "درباره ما"
+msgstr ""
+
+#: includes/AI/Providers/GeminiProvider.php:80
+msgid "درخواست توسط فیلتر ایمنی Gemini مسدود شد (%s)."
+msgstr ""
+
+#: admin/js/app.js:369
+#: includes/Admin/AdminPage.php:93
+msgid "دسترسی کافی ندارید."
+msgstr ""
+
+#: admin/js/app.js:1220
+msgid "دستگاه"
+msgstr ""
+
+#: admin/js/app.js:1232
+msgid "دسکتاپ"
+msgstr ""
+
+#: admin/js/app.js:439
+#: admin/js/app.js:459
+msgid "ذخیره"
+msgstr ""
+
+#: admin/js/app.js:966
+msgid "ذخیره تغییرات"
+msgstr ""
+
+#: admin/js/app.js:837
+msgid "ذخیره شد. تغییرات در تولید بعدی اعمال می‌شوند."
+msgstr ""
+
+#: admin/js/app.js:592
+msgid "ذخیره و ادامه به تصاویر"
+msgstr ""
+
+#: admin/js/app.js:840
+msgid "ذخیره و شروع تولید"
+msgstr ""
+
+#: admin/js/app.js:835
+msgid "ذخیره ورودی‌ها"
+msgstr ""
+
+#: admin/js/app.js:479
+msgid "راست‌به‌چپ"
+msgstr ""
+
+#: admin/js/app.js:191
+msgid "رستوران و کافه"
+msgstr ""
+
+#: includes/Elementor/CanvasLayout.php:133
+msgid "رفتن به محتوای اصلی"
+msgstr ""
+
+#: admin/js/app.js:485
+msgid "رنگ اصلی"
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:111
+msgid "رنگ پیوند"
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:119
+msgid "رنگ پیوند (هاور/فعال)"
+msgstr ""
+
+#: admin/js/app.js:485
+msgid "رنگ دوم"
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:118
+msgid "رنگ عنوان"
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:126
+msgid "رنگ متن"
+msgstr ""
+
+#: admin/js/app.js:555
+#: admin/js/app.js:994
+msgid "رنگ‌ها"
+msgstr ""
+
+#: admin/js/app.js:557
+msgid "رنگ‌ها از نظر کنتراست (WCAG AA) بررسی می‌شوند و در صورت نیاز اصلاح و گزارش می‌شوند."
+msgstr ""
+
+#: includes/Generation/Publisher.php:105
+msgid "رنگ‌ها و تایپوگرافی سراسری المنتور (Site Settings) به‌روزرسانی شد؛ نسخه قبلی ذخیره شده است."
+msgstr ""
+
+#: admin/js/app.js:576
+msgid "رنگ‌ها و فونت‌ها به‌عنوان Global در المنتور ثبت شوند (بدون تغییر رنگ‌های فعلی سایت)"
+msgstr ""
+
+#: admin/js/app.js:1278
+msgid "رنگ‌ها و فونت‌های اصلی سایت در المنتور (Site Settings) با سیستم طراحی جدید جایگزین شوند (نسخه قبلی ذخیره می‌شود)"
+msgstr ""
+
+#: admin/js/app.js:481
+msgid "رنگ‌های من"
+msgstr ""
+
+#: admin/js/app.js:1117
+msgid "روش"
+msgstr ""
+
+#: includes/Performance/Auditor.php:110
+msgid "روش چاپ CSS المنتور «داخلی» است؛ حالت «فایل خارجی» امکان کش مرورگر را فراهم می‌کند."
+msgstr ""
+
+#: admin/js/app.js:551
+msgid "زبان سایت"
+msgstr ""
+
+#: admin/js/app.js:284
+msgid "ساخت پروژه جدید"
+msgstr ""
+
+#: admin/js/app.js:1091
+msgid "ساخت منوی جدید (یا به‌روزرسانی منوی همین پروژه)"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:43
+msgid "ساخت نقشه سایت"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:46
+msgid "ساخت و اعتبارسنجی ساختار المنتور"
+msgstr ""
+
+#: includes/SEO/Auditor.php:47
+msgid "ساختار پیوند یکتا «ساده» است؛ برای نشانی‌های خوانا از تنظیمات > پیوندهای یکتا «نام نوشته» را انتخاب کنید."
+msgstr ""
+
+#: admin/js/app.js:378
+msgid "سازگار با OpenAI (آدرس دلخواه)"
+msgstr ""
+
+#: admin/js/app.js:571
+msgid "ساعات کاری"
+msgstr ""
+
+#: admin/js/app.js:198
+msgid "سایر"
+msgstr ""
+
+#: admin/js/app.js:173
+msgid "سؤالات متداول"
+msgstr ""
+
+#: admin/js/app.js:609
+msgid "سئو"
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:73
+msgid "ستون‌ها"
+msgstr ""
+
+#: admin/js/app.js:558
+msgid "ستون‌ها در تبلت"
+msgstr ""
+
+#: admin/js/app.js:354
+#: admin/js/app.js:423
+msgid "سرویس هوش مصنوعی"
+msgstr ""
+
+#: includes/AI/Providers/AbstractProvider.php:191
+msgid "سرویس هوش مصنوعی موقتاً در دسترس نیست."
+msgstr ""
+
+#: admin/js/app.js:425
+msgid "سرویس‌دهنده"
+msgstr ""
+
+#: includes/SEO/HeadingValidator.php:213
+msgid "سطح عنوان «%1$s» از H%2$d به H%3$d پرش کرده است."
+msgstr ""
+
+#: admin/js/app.js:182
+msgid "سفارشی"
+msgstr ""
+
+#: admin/js/app.js:455
+msgid "سقف درخواست AI در ساعت (هر کاربر)"
+msgstr ""
+
+#: admin/js/app.js:606
+msgid "سیستم طراحی"
+msgstr ""
+
+#: admin/js/app.js:988
+msgid "سیستم طراحی هنوز تولید نشده است."
+msgstr ""
+
+#: admin/js/app.js:197
+msgid "شخصی"
+msgstr ""
+
+#: admin/js/app.js:1183
+msgid "شدت"
+msgstr ""
+
+#: admin/js/app.js:1183
+msgid "شرح"
+msgstr ""
+
+#: includes/Admin/AdminPage.php:135
+msgid "شروع"
+msgstr ""
+
+#: admin/js/app.js:716
+msgid "شروع تولید"
+msgstr ""
+
+#: admin/js/app.js:293
+#: admin/js/app.js:607
+msgid "صفحات"
+msgstr ""
+
+#: admin/js/app.js:1297
+msgid "صفحات به پیش‌نویس برگردند و تنظیمات سراسری (صفحه نخست، ۴۰۴، رنگ‌ها) به حالت قبل بازگردد؟"
+msgstr ""
+
+#: admin/js/app.js:678
+msgid "صفحات به‌صورت پیش‌نویس ساخته شده‌اند. آن‌ها را پیش‌نمایش کنید، در المنتور ویرایش کنید، گزارش سئو و عملکرد را ببینید و در پایان منتشر کنید."
+msgstr ""
+
+#: admin/js/app.js:1285
+msgid "صفحات منتشر و برای عموم قابل مشاهده شوند؟"
+msgstr ""
+
+#: admin/js/app.js:563
+msgid "صفحات موردنیاز"
+msgstr ""
+
+#: admin/js/app.js:722
+msgid ""
+"صفحاتی که در المنتور ویرایش کرده‌اید هم جایگزین شوند؟\n"
+"«تأیید» = جایگزین شوند (نسخه پشتیبان ذخیره می‌شود)\n"
+"«انصراف» = صفحات ویرایش‌شده دست نخورند"
+msgstr ""
+
+#: admin/js/app.js:1183
+#: admin/js/app.js:1203
+#: admin/js/app.js:1220
+msgid "صفحه"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:709
+msgid "صفحه «%s» پس از تولید در المنتور ویرایش شده بود؛ برای حفظ تغییرات شما بازنویسی نشد."
+msgstr ""
+
+#: includes/SEO/HeadingValidator.php:195
+msgid "صفحه %d عنوان H1 دارد؛ فقط یک H1 اصلی توصیه می‌شود."
+msgstr ""
+
+#: admin/js/app.js:180
+msgid "صفحه ۴۰۴"
+msgstr ""
+
+#: admin/js/app.js:1277
+msgid "صفحه ۴۰۴ ساخته‌شده برای خطای ۴۰۴ سایت استفاده شود"
+msgstr ""
+
+#: includes/Generation/Publisher.php:99
+msgid "صفحه ۴۰۴ سفارشی فعال شد."
+msgstr ""
+
+#: includes/Generation/Publisher.php:90
+msgid "صفحه اصلی به‌عنوان صفحه نخست سایت تنظیم شد."
+msgstr ""
+
+#: admin/js/app.js:577
+msgid "صفحه اصلی پروژه هنگام انتشار، صفحه نخست سایت شود (در زمان انتشار دوباره تأیید می‌شود)"
+msgstr ""
+
+#: admin/js/app.js:1276
+msgid "صفحه اصلی پروژه، صفحه نخست سایت شود"
+msgstr ""
+
+#: admin/js/app.js:564
+msgid "صفحه اصلی و ۴۰۴ همیشه ساخته می‌شوند. صفحات دیگر را انتخاب کنید یا خالی بگذارید تا بر اساس نوع سایت پیشنهاد شود."
+msgstr ""
+
+#: includes/REST/SiteController.php:244
+#: includes/REST/SiteController.php:344
+msgid "صفحه پیدا نشد."
+msgstr ""
+
+#: admin/js/app.js:957
+msgid "صفحه جدید"
+msgstr ""
+
+#: admin/js/app.js:168
+msgid "صفحه خدمت"
+msgstr ""
+
+#: includes/Generation/SectionRegenerator.php:219
+msgid "صفحه در نقشه سایت پیدا نشد."
+msgstr ""
+
+#: includes/SEO/Auditor.php:131
+msgid "صفحه شامل محتوای نمونه (Placeholder) است؛ پیش از انتشار آن را با اطلاعات واقعی جایگزین کنید."
+msgstr ""
+
+#: admin/js/app.js:181
+msgid "صفحه فرود"
+msgstr ""
+
+#: admin/js/app.js:170
+msgid "صفحه محصول"
+msgstr ""
+
+#: includes/Generation/Publisher.php:93
+msgid "صفحه نخست سایت تغییر نکرد؛ پیوندهای «خانه» به نشانی صفحه اصلی پروژه اصلاح شدند."
+msgstr ""
+
+#: admin/js/app.js:929
+msgid "صفحه والد"
+msgstr ""
+
+#: includes/SEO/Auditor.php:87
+msgid "صفحه هنوز در المنتور ساخته نشده است."
+msgstr ""
+
+#: includes/SEO/HeadingValidator.php:187
+msgid "صفحه هیچ عنوان H1 ندارد."
+msgstr ""
+
+#: includes/SEO/Auditor.php:72
+msgid "طول توضیحات متا %d کاراکتر است (پیشنهاد: ۱۲۰ تا ۱۶۰)."
+msgstr ""
+
+#: admin/js/app.js:1203
+msgid "عمق"
+msgstr ""
+
+#: admin/js/app.js:610
+msgid "عملکرد"
+msgstr ""
+
+#: admin/js/app.js:663
+msgid "عملیات لغو شود؟ کارهای انجام‌شده حفظ می‌شوند و می‌توانید بعداً ادامه دهید."
+msgstr ""
+
+#: includes/REST/ProjectController.php:364
+msgid "عملیاتی در انتظار تأیید نقشه سایت نیست."
+msgstr ""
+
+#: admin/js/app.js:454
+msgid "عمومی"
+msgstr ""
+
+#: admin/js/app.js:1203
+msgid "عناصر"
+msgstr ""
+
+#: admin/js/app.js:877
+#: admin/js/app.js:928
+msgid "عنوان"
+msgstr ""
+
+#: includes/SEO/Auditor.php:66
+msgid "عنوان سئو %d کاراکتر است؛ بیش از ۶۰ کاراکتر ممکن است در نتایج جستجو کوتاه شود."
+msgstr ""
+
+#: includes/SEO/Auditor.php:63
+msgid "عنوان سئو تعریف نشده است."
+msgstr ""
+
+#: includes/SEO/Auditor.php:138
+msgid "عنوان سئو تکراری بین صفحات: %s"
+msgstr ""
+
+#: admin/js/app.js:196
+msgid "غیرانتفاعی"
+msgstr ""
+
+#: admin/js/app.js:347
+#: admin/js/app.js:384
+msgid "غیرفعال"
+msgstr ""
+
+#: admin/js/app.js:358
+msgid "غیرفعال (پیشرفت فقط هنگام باز بودن این صفحه)"
+msgstr ""
+
+#: admin/js/app.js:560
+msgid "فاصله‌گذاری"
+msgstr ""
+
+#: includes/Media/ImageUploader.php:55
+msgid "فایل ارسالی معتبر نیست."
+msgstr ""
+
+#: includes/Media/ImageUploader.php:68
+msgid "فایل یک تصویر معتبر نیست."
+msgstr ""
+
+#: includes/REST/ProjectController.php:159
+msgid "فایلی ارسال نشده است."
+msgstr ""
+
+#: admin/js/app.js:193
+msgid "فروشگاه"
+msgstr ""
+
+#: admin/js/app.js:507
+msgid "فشرده"
+msgstr ""
+
+#: admin/js/app.js:384
+msgid "فعال"
+msgstr ""
+
+#: admin/js/app.js:1099
+msgid "فعلاً: %s"
+msgstr ""
+
+#: includes/Media/ImageUploader.php:64
+msgid "فقط تصاویر JPEG، PNG و WebP پذیرفته می‌شوند."
+msgstr ""
+
+#: includes/Performance/PageSpeedClient.php:49
+msgid "فقط نشانی‌های همین سایت قابل آزمون هستند."
+msgstr ""
+
+#: admin/js/app.js:569
+msgid "فقط همین اطلاعات در سایت استفاده می‌شود؛ اگر خالی باشد، جای آن مشخص و قابل ویرایش می‌ماند."
+msgstr ""
+
+#: admin/js/app.js:558
+msgid "فونت عناوین"
+msgstr ""
+
+#: admin/js/app.js:1003
+msgid "فونت عناوین:"
+msgstr ""
+
+#: admin/js/app.js:558
+msgid "فونت متن"
+msgstr ""
+
+#: admin/js/app.js:1003
+msgid "فونت متن:"
+msgstr ""
+
+#: includes/Performance/Auditor.php:104
+msgid "فونت‌ها از سرور Google بارگذاری می‌شوند (درخواست خارجی و مسدودکننده رندر). در المنتور > تنظیمات > عملکرد، گزینه «بارگذاری محلی فونت‌های گوگل» را فعال کنید."
+msgstr ""
+
+#: admin/js/app.js:1004
+msgid "فونت‌ها از Google Fonts با font-display: swap بارگذاری می‌شوند. برای عملکرد بهتر، می‌توانید در تنظیمات المنتور بارگذاری محلی فونت را فعال کنید."
+msgstr ""
+
+#: admin/js/app.js:357
+msgid "قابل مشاهده برای موتورهای جستجو"
+msgstr ""
+
+#: includes/Elementor/Compatibility.php:180
+msgid "قابلیت Flexbox Container در المنتور غیرفعال است؛ صفحات با ساختار قدیمی Section/Column ساخته می‌شوند. توصیه می‌شود از المنتور > تنظیمات > ویژگی‌ها آن را فعال کنید."
+msgstr ""
+
+#: admin/js/app.js:359
+msgid "قالب بلوکی"
+msgstr ""
+
+#: includes/SEO/HeadingValidator.php:202
+msgid "قالب سراسری (هدر/فوتر) نباید عنوان H1 داشته باشد."
+msgstr ""
+
+#: admin/js/app.js:1120
+msgid "قالب فعال جایگاه منو ثبت نکرده است."
+msgstr ""
+
+#: admin/js/app.js:1079
+msgid "قالب فعال یک قالب بلوکی است و از جایگاه‌های منوی کلاسیک استفاده نمی‌کند. منو ساخته می‌شود و در هدر صفحات تولیدشده نمایش داده می‌شود، اما برای نمایش در قالب باید آن را در ویرایشگر سایت انتخاب کنید."
+msgstr ""
+
+#: admin/js/app.js:179
+msgid "قوانین و مقررات"
+msgstr ""
+
+#: admin/js/app.js:135
+msgid "کامل شد"
+msgstr ""
+
+#: admin/js/app.js:508
+msgid "کاملاً گرد"
+msgstr ""
+
+#: admin/js/app.js:187
+msgid "کسب‌وکار"
+msgstr ""
+
+#: admin/js/app.js:548
+msgid "کسب‌وکار، مخاطبان، خدمات، لحن و هدف سایت را بنویسید. هر چه دقیق‌تر بنویسید، نتیجه بهتر است. اطلاعات واقعی (نظرات مشتری، آمار، مدارک) را فقط اگر واقعی است بنویسید؛ افزونه هرگز آن‌ها را جعل نمی‌کند."
+msgstr ""
+
+#: admin/js/app.js:719
+msgid "کل سایت دوباره تولید شود؟ نسخه فعلی در تاریخچه می‌ماند."
+msgstr ""
+
+#: admin/js/app.js:559
+msgid "کلمات کلیدی سبک (با ویرگول جدا کنید)"
+msgstr ""
+
+#: admin/js/app.js:427
+msgid "کلید از wp-config.php خوانده می‌شود."
+msgstr ""
+
+#: admin/js/app.js:427
+msgid "کلید API"
+msgstr ""
+
+#: admin/js/app.js:429
+msgid "کلید API حذف شود؟"
+msgstr ""
+
+#: admin/js/app.js:319
+msgid "کلید API سرویس هوش مصنوعی تنظیم نشده است."
+msgstr ""
+
+#: includes/REST/ProjectController.php:378
+msgid "کلید API سرویس هوش مصنوعی تنظیم نشده است. از بخش «تنظیمات سرویس هوش مصنوعی» آن را وارد کنید."
+msgstr ""
+
+#: includes/AI/Providers/AbstractProvider.php:182
+msgid "کلید API نامعتبر است یا به این مدل دسترسی ندارد."
+msgstr ""
+
+#: includes/AI/Providers/AbstractProvider.php:102
+msgid "کلید API هوش مصنوعی تنظیم نشده است. از بخش تنظیمات آن را وارد کنید."
+msgstr ""
+
+#: admin/js/app.js:457
+msgid "کلید PageSpeed Insights API"
+msgstr ""
+
+#: admin/js/app.js:424
+msgid "کلیدها رمزنگاری‌شده ذخیره می‌شوند و هرگز به مرورگر بازگردانده نمی‌شوند. می‌توانید کلید را با ثابت ATS_API_KEY در wp-config.php نیز تعریف کنید."
+msgstr ""
+
+#: includes/SEO/Auditor.php:174
+msgid "کنتراست رنگ %1$s روی %2$s برابر %3$s:1 است (حداقل ۴.۵:۱ برای متن)."
+msgstr ""
+
+#: admin/js/app.js:208
+msgid "گالری"
+msgstr ""
+
+#: admin/js/app.js:678
+msgid "گام بعدی"
+msgstr ""
+
+#: admin/js/app.js:508
+msgid "گرد"
+msgstr ""
+
+#: admin/js/app.js:735
+msgid "گزارش رویدادها"
+msgstr ""
+
+#: includes/SEO/Auditor.php:44
+msgid "گزینه «از موتورهای جستجو درخواست شود محتوای سایت را بررسی نکنند» در تنظیمات خواندن فعال است؛ سایت ایندکس نمی‌شود."
+msgstr ""
+
+#: admin/js/app.js:574
+msgid "گزینه‌ها"
+msgstr ""
+
+#: admin/js/app.js:560
+msgid "گوشه‌ها"
+msgstr ""
+
+#: includes/REST/ProjectController.php:498
+msgid "لطفاً سایت موردنظر را دست‌کم در یک یا دو جمله توضیح دهید."
+msgstr ""
+
+#: admin/js/app.js:662
+msgid "لغو"
+msgstr ""
+
+#: admin/js/app.js:130
+msgid "لغوشده"
+msgstr ""
+
+#: admin/js/app.js:203
+msgid "لوگو"
+msgstr ""
+
+#: admin/js/app.js:748
+msgid "لوگو، نمونه طراحی موردعلاقه، عکس محصول یا تیم را بارگذاری کنید و نقش هر تصویر را مشخص کنید. تصاویر «نمونه طراحی» و «الهام» فقط برای سبک استفاده می‌شوند و در سایت قرار نمی‌گیرند."
+msgstr ""
+
+#: admin/js/app.js:507
+msgid "متعادل"
+msgstr ""
+
+#: includes/SEO/Auditor.php:114
+msgid "متن پیوند «%s» توصیفی نیست؛ مقصد پیوند را در متن مشخص کنید."
+msgstr ""
+
+#: admin/js/app.js:470
+msgid "مثال: سایت یک کلینیک دندانپزشکی در شیراز با خدمات ایمپلنت، ارتودنسی و زیبایی. مخاطبان خانواده‌ها هستند. لحن صمیمی و قابل اعتماد. می‌خواهیم بیمار بتواند به‌راحتی نوبت بگیرد…"
+msgstr ""
+
+#: admin/js/app.js:426
+msgid "مثال: gpt-4o، claude-sonnet-4-5، gemini-2.5-pro"
+msgstr ""
+
+#: admin/js/app.js:1321
+msgid "محتوای فعلی صفحه با این نسخه جایگزین شود؟ (نسخه فعلی هم پشتیبان‌گیری می‌شود)"
+msgstr ""
+
+#: includes/AI/Providers/AbstractProvider.php:189
+msgid "محدودیت نرخ یا سهمیه سرویس هوش مصنوعی تمام شده است. کمی بعد دوباره تلاش کنید."
+msgstr ""
+
+#: admin/js/app.js:206
+msgid "محصول"
+msgstr ""
+
+#: admin/js/app.js:169
+msgid "محصولات"
+msgstr ""
+
+#: admin/js/app.js:426
+msgid "مدل"
+msgstr ""
+
+#: includes/AI/Providers/AbstractProvider.php:185
+msgid "مدل «%s» در این سرویس پیدا نشد. نام مدل را در تنظیمات بررسی کنید."
+msgstr ""
+
+#. translators: 1: provider, 2: model
+#: includes/Generation/Pipeline.php:253
+msgid "مدل %2$s در سرویس %1$s از تحلیل تصویر پشتیبانی نمی‌کند (یا در تنظیمات غیرفعال است). تصاویر تحلیل نشدند؛ فقط بر اساس نقشی که شما تعیین کرده‌اید استفاده می‌شوند و متن جایگزین باید دستی تکمیل شود."
+msgstr ""
+
+#: includes/AI/Providers/OpenAIProvider.php:103
+msgid "مدل درخواست را رد کرد: %s"
+msgstr ""
+
+#: admin/js/app.js:750
+msgid "مدل فعلی از تحلیل تصویر پشتیبانی نمی‌کند (یا غیرفعال است)؛ تصاویر فقط بر اساس نقشی که تعیین می‌کنید استفاده می‌شوند."
+msgstr ""
+
+#: admin/js/app.js:678
+msgid "مشاهده صفحات"
+msgstr ""
+
+#: admin/js/app.js:1174
+msgid "مشکلات"
+msgstr ""
+
+#: admin/js/app.js:1179
+msgid "مشکلات (%d)"
+msgstr ""
+
+#: admin/js/app.js:333
+#: admin/js/app.js:1174
+msgid "مشکلی یافت نشد."
+msgstr ""
+
+#: admin/js/app.js:176
+msgid "مطالعه موردی"
+msgstr ""
+
+#: admin/js/app.js:1166
+msgid "معتبر"
+msgstr ""
+
+#: includes/Performance/Auditor.php:107
+msgid "مقدار font-display را در تنظیمات المنتور روی swap قرار دهید تا متن بدون تأخیر نمایش داده شود."
+msgstr ""
+
+#: admin/js/app.js:131
+#: admin/js/app.js:136
+msgid "منتشرشده"
+msgstr ""
+
+#: admin/js/app.js:127
+msgid "منتظر بررسی نقشه سایت"
+msgstr ""
+
+#: admin/js/app.js:134
+msgid "منتظر شما"
+msgstr ""
+
+#: admin/js/app.js:608
+#: includes/Elementor/Widgets/NavMenu.php:81
+#: includes/Elementor/Widgets/NavMenu.php:172
+msgid "منو"
+msgstr ""
+
+#: admin/js/app.js:1131
+msgid "منو اعمال شد: %1$d مورد جدید، %2$d مورد موجود."
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:89
+msgid "منوها را از نمایش > فهرست‌ها مدیریت کنید."
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:169
+msgid "منوی اصلی"
+msgstr ""
+
+#: includes/WordPress/MenuManager.php:133
+msgid "منوی انتخاب‌شده وجود ندارد."
+msgstr ""
+
+#: admin/js/app.js:1085
+msgid "منوی پیشنهادی"
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:34
+msgid "منوی سایت (AI Theme Studio)"
+msgstr ""
+
+#: admin/js/app.js:1127
+msgid "منوی فعلی برخی جایگاه‌ها با منوی جدید جایگزین می‌شود. ادامه می‌دهید؟"
+msgstr ""
+
+#: admin/js/app.js:1104
+msgid "منوی موجود"
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:85
+msgid "منوی وردپرس"
+msgstr ""
+
+#: admin/js/app.js:1232
+msgid "موبایل"
+msgstr ""
+
+#: admin/js/app.js:438
+msgid "مهلت درخواست (ثانیه)"
+msgstr ""
+
+#: admin/js/app.js:506
+msgid "مینیمال، مدرن، گرم، لوکس…"
+msgstr ""
+
+#: admin/js/app.js:293
+msgid "نام"
+msgstr ""
+
+#: admin/js/app.js:586
+msgid "نام پروژه"
+msgstr ""
+
+#: admin/js/app.js:570
+msgid "نام کسب‌وکار"
+msgstr ""
+
+#: includes/AI/ProviderFactory.php:63
+msgid "نام مدل هوش مصنوعی در تنظیمات مشخص نشده است."
+msgstr ""
+
+#: admin/js/app.js:1105
+msgid "نام منوی جدید"
+msgstr ""
+
+#: admin/js/app.js:211
+msgid "نامشخص"
+msgstr ""
+
+#: admin/js/app.js:1166
+msgid "نامعتبر"
+msgstr ""
+
+#: admin/js/app.js:879
+#: admin/js/app.js:928
+msgid "نامک"
+msgstr ""
+
+#: admin/js/app.js:129
+msgid "ناموفق"
+msgstr ""
+
+#: admin/js/app.js:192
+msgid "نرم‌افزار / SaaS"
+msgstr ""
+
+#: admin/js/app.js:344
+msgid "نسخه افزونه"
+msgstr ""
+
+#: includes/Elementor/Compatibility.php:176
+msgid "نسخه المنتور (%1$s) قدیمی است؛ حداقل نسخه %2$s لازم است."
+msgstr ""
+
+#: includes/REST/SiteController.php:247
+msgid "نسخه پشتیبان پیدا نشد یا معتبر نبود."
+msgstr ""
+
+#: admin/js/app.js:1315
+msgid "نسخه‌های پشتیبان صفحات"
+msgstr ""
+
+#: admin/js/app.js:1336
+msgid "نسخه‌های خروجی"
+msgstr ""
+
+#: admin/js/app.js:571
+msgid "نشانی"
+msgstr ""
+
+#: admin/js/app.js:347
+msgid "نصب نیست"
+msgstr ""
+
+#: admin/js/app.js:790
+msgid "نقش تصاویر جدید"
+msgstr ""
+
+#: admin/js/app.js:759
+msgid "نقش تصویر"
+msgstr ""
+
+#: admin/js/app.js:763
+msgid "نقش تصویر ذخیره شد."
+msgstr ""
+
+#: admin/js/app.js:605
+msgid "نقشه سایت"
+msgstr ""
+
+#: admin/js/app.js:953
+msgid "نقشه سایت پیشنهادی"
+msgstr ""
+
+#: admin/js/app.js:969
+msgid "نقشه سایت ذخیره شد."
+msgstr ""
+
+#: includes/REST/ProjectController.php:330
+msgid "نقشه سایت فقط در مرحله بررسی قابل ویرایش است. برای تغییر صفحات بعد از تولید، از بازتولید صفحه استفاده کنید."
+msgstr ""
+
+#: admin/js/app.js:868
+msgid "نقشه سایت فقط در مرحله بررسی قابل ویرایش است. پس از تولید، صفحات را از بخش «صفحات» بازتولید کنید."
+msgstr ""
+
+#: includes/REST/ProjectController.php:338
+msgid "نقشه سایت معتبر نیست."
+msgstr ""
+
+#: admin/js/app.js:861
+msgid "نقشه سایت هنوز ساخته نشده است."
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:101
+msgid "نمایش خلاصه"
+msgstr ""
+
+#: admin/js/app.js:205
+msgid "نمونه طراحی (فقط الهام)"
+msgstr ""
+
+#: admin/js/app.js:189
+msgid "نمونه‌کار"
+msgstr ""
+
+#: admin/js/app.js:175
+msgid "نمونه‌کارها"
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:59
+msgid "نوشته‌ها"
+msgstr ""
+
+#: admin/js/app.js:929
+msgid "نوع"
+msgstr ""
+
+#: admin/js/app.js:551
+msgid "نوع سایت"
+msgstr ""
+
+#: admin/js/app.js:382
+msgid "وارد نشده"
+msgstr ""
+
+#: admin/js/app.js:171
+#: admin/js/app.js:190
+msgid "وبلاگ"
+msgstr ""
+
+#: admin/js/app.js:604
+msgid "ورودی‌ها و تصاویر"
+msgstr ""
+
+#: admin/js/app.js:293
+#: admin/js/app.js:603
+msgid "وضعیت"
+msgstr ""
+
+#: admin/js/app.js:262
+#: admin/js/app.js:361
+#: includes/Admin/AdminPage.php:74
+msgid "وضعیت سیستم"
+msgstr ""
+
+#: admin/js/app.js:1203
+msgid "ویجت‌ها"
+msgstr ""
+
+#: admin/js/app.js:1052
+msgid "ویرایش در المنتور"
+msgstr ""
+
+#: admin/js/app.js:1066
+msgid "ویرایش فوتر"
+msgstr ""
+
+#: admin/js/app.js:642
+msgid "ویرایش ورودی‌ها و تصاویر"
+msgstr ""
+
+#: admin/js/app.js:1066
+msgid "ویرایش هدر"
+msgstr ""
+
+#: admin/js/app.js:1166
+msgid "ویرایش‌شده"
+msgstr ""
+
+#: admin/js/app.js:1044
+msgid "ویرایش‌شده در المنتور"
+msgstr ""
+
+#: includes/Performance/Auditor.php:113
+msgid "ویژگی «Inline Font Icons» المنتور غیرفعال است؛ فعال کردن آن از بارگذاری کامل فونت آیکون جلوگیری می‌کند."
+msgstr ""
+
+#: admin/js/app.js:1066
+msgid "هدر و فوتر"
+msgstr ""
+
+#: includes/Generation/Publisher.php:120
+msgid "هدر و فوتر به‌عنوان قالب‌های Theme Builder المنتور پرو روی کل سایت فعال شدند."
+msgstr ""
+
+#: admin/js/app.js:1279
+msgid "هدر و فوتر روی کل سایت فعال شوند (Theme Builder — نیازمند المنتور پرو)"
+msgstr ""
+
+#: includes/Generation/Pipeline.php:742
+msgid "هدر یا فوتر پس از تولید ویرایش شده بود و بازنویسی نشد."
+msgstr ""
+
+#: admin/js/app.js:891
+#: admin/js/app.js:931
+msgid "هدف صفحه"
+msgstr ""
+
+#: admin/js/app.js:333
+msgid "هشدارها و محدودیت‌ها"
+msgstr ""
+
+#: admin/js/app.js:458
+msgid "هنگام حذف افزونه، داده‌های افزونه (پروژه‌ها، تاریخچه، تنظیمات) پاک شود. صفحات ساخته‌شده هرگز حذف نمی‌شوند."
+msgstr ""
+
+#: admin/js/app.js:1149
+msgid "هنوز بررسی سئو انجام نشده است."
+msgstr ""
+
+#: admin/js/app.js:287
+msgid "هنوز پروژه‌ای ندارید. با توضیح سایت موردنظرتان شروع کنید."
+msgstr ""
+
+#: admin/js/app.js:1015
+msgid "هنوز صفحه‌ای ساخته نشده است."
+msgstr ""
+
+#: includes/Elementor/Widgets/NavMenu.php:164
+msgid "هنوز منویی انتخاب یا ساخته نشده است."
+msgstr ""
+
+#: includes/Elementor/Widgets/PostsGrid.php:150
+msgid "هنوز نوشته‌ای منتشر نشده است."
+msgstr ""
+
+#: includes/Elementor/Compatibility.php:186
+msgid "هیچ افزونه فرم (Contact Form 7 یا WPForms) پیدا نشد؛ صفحه تماس با اطلاعات تماس و دکمه ایمیل ساخته می‌شود."
+msgstr ""
+
+#: includes/SEO/Auditor.php:168
+msgid "هیچ پیوند داخلی به این صفحه وجود ندارد (صفحه یتیم)."
+msgstr ""
+
+#: admin/js/app.js:1116
+msgid "هیچ منو یا آیتمی حذف نمی‌شود. آیتم‌های تکراری اضافه نمی‌شوند."
+msgstr ""
+
+#: admin/js/app.js:682
+msgid "یادداشت‌ها و محدودیت‌ها"
+msgstr ""
+
+#: includes/Performance/Auditor.php:91
+msgid "یک تصویر بزرگ‌تر از ۶۰۰ کیلوبایت است؛ از WebP/AVIF یا فشرده‌سازی استفاده کنید (وردپرس اندازه‌های واکنش‌گرا را خودکار تولید می‌کند)."
+msgstr ""
+
+#. translators: %s: WordPress version
+#: includes/Core/Activator.php:33
+msgid "AI Theme Studio به وردپرس نسخه %s یا بالاتر نیاز دارد."
+msgstr ""
+
+#: includes/SEO/Auditor.php:50
+msgid "All in One SEO فعال است و API نوشتن متادیتا ندارد؛ عنوان و توضیحات پیشنهادی را از فهرست صفحات در AIOSEO وارد کنید."
+msgstr ""
+
+#: admin/js/app.js:1203
+msgid "DOM تخمینی"
+msgstr ""
+
+#: admin/js/app.js:1215
+msgid "PageSpeed فقط صفحات عمومی را آزمون می‌کند. پس از انتشار، یا روی محیط محلی با Lighthouse CI (راهنما در docs/LIGHTHOUSE.md) آزمون کنید."
+msgstr ""
+
+#: includes/REST/SiteController.php:347
+msgid "PageSpeed فقط صفحات منتشرشده و عمومی را می‌تواند آزمون کند. ابتدا صفحه را منتشر کنید یا از Lighthouse CI روی محیط محلی استفاده کنید."
+msgstr ""
+
+#: includes/Generation/Publisher.php:122
+msgid "Theme Builder در دسترس نیست (المنتور پرو لازم است)؛ هدر و فوتر فقط روی صفحات تولیدشده نمایش داده می‌شوند."
+msgstr ""
+

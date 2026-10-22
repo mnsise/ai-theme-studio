@@ -1,0 +1,10 @@
+/vendor/
+/node_modules/
+/.lighthouseci/
+/tests/Integration/.demo-urls.txt
+.phpunit.result.cache
+/.phpunit.cache/
+/languages/_strings.json
+/languages/_meta.json
+.DS_Store
+*.zip

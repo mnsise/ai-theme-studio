@@ -1,0 +1,116 @@
+/* AI Theme Studio — front-end (loaded only on generated pages / when plugin widgets render). */
+.ats-skip-link {
+	position: absolute;
+	inset-inline-start: 1rem;
+	top: -100px;
+	z-index: 100000;
+	padding: .75rem 1rem;
+	background: #000;
+	color: #fff;
+	border-radius: 4px;
+	text-decoration: none;
+}
+.ats-skip-link:focus { top: 1rem; }
+.ats-main:focus { outline: none; }
+
+/* Navigation */
+.ats-nav { position: relative; }
+.ats-nav__list {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: .25rem 1.5rem;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.ats-nav__list li { position: relative; margin: 0; }
+.ats-nav__list a {
+	display: inline-block;
+	padding: .5rem .25rem;
+	text-decoration: none;
+	min-height: 24px;
+}
+.ats-nav__list a:focus-visible,
+.ats-nav__toggle:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.ats-nav__list .sub-menu {
+	position: absolute;
+	inset-inline-start: 0;
+	top: 100%;
+	min-width: 200px;
+	margin: 0;
+	padding: .5rem;
+	list-style: none;
+	background: #fff;
+	box-shadow: 0 8px 24px rgba(0, 0, 0, .12);
+	border-radius: 8px;
+	visibility: hidden;
+	opacity: 0;
+	z-index: 50;
+}
+.ats-nav__list li:hover > .sub-menu,
+.ats-nav__list li:focus-within > .sub-menu { visibility: visible; opacity: 1; }
+.ats-nav__list .sub-menu a { display: block; color: #111; }
+.ats-nav__toggle {
+	display: none;
+	align-items: center;
+	gap: .5rem;
+	padding: .5rem .75rem;
+	background: transparent;
+	border: 1px solid currentColor;
+	border-radius: 6px;
+	font: inherit;
+	cursor: pointer;
+	min-height: 44px;
+}
+.ats-nav__bars,
+.ats-nav__bars::before,
+.ats-nav__bars::after {
+	display: block;
+	width: 18px;
+	height: 2px;
+	background: currentColor;
+	position: relative;
+	content: "";
+}
+.ats-nav__bars::before { position: absolute; top: -6px; }
+.ats-nav__bars::after { position: absolute; top: 6px; }
+
+@media (max-width: 1024px) {
+	.ats-js .ats-nav__toggle,
+	.ats-nav--js .ats-nav__toggle { display: inline-flex; }
+	.ats-js .ats-nav__list,
+	.ats-nav--js .ats-nav__list { display: none; flex-direction: column; align-items: stretch; padding-top: .5rem; }
+	.ats-js .ats-nav.is-open .ats-nav__list,
+	.ats-nav--js.is-open .ats-nav__list { display: flex; }
+	.ats-nav__list .sub-menu { position: static; visibility: visible; opacity: 1; box-shadow: none; background: transparent; padding-inline-start: 1rem; }
+	.ats-nav__list .sub-menu a { color: inherit; }
+}
+
+/* Latest posts */
+.ats-posts {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(0, 1fr));
+	gap: 24px;
+}
+.ats-post { display: flex; flex-direction: column; gap: .5rem; }
+.ats-post__thumb img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; border-radius: 10px; }
+.ats-post__title { margin: .25rem 0 0; font-size: 1.15em; line-height: 1.5; }
+.ats-post__title a { text-decoration: none; }
+.ats-post__date { font-size: .875em; opacity: .85; }
+.ats-post__excerpt { margin: 0; }
+@media (max-width: 767px) {
+	.ats-posts { grid-template-columns: minmax(0, 1fr); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+	.ats-main *,
+	.ats-main *::before,
+	.ats-main *::after {
+		animation-duration: .01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: .01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
