@@ -1,193 +1,245 @@
-# 360Dialog AI Theme Studio
-
 <p align="center">
-  <img src="assets/AI%20Theme%20Studio%20Landing%20Banner.webp" alt="360Dialog AI Theme Studio — Build editable Elementor websites with AI" width="100%">
+  <img src="assets/AI%20Theme%20Studio%20Landing%20Banner.webp" alt="360Dialog AI Theme Studio" width="100%">
 </p>
 
-**Turn a brief and a few reference images into a complete, SEO-aware WordPress site — built as native, fully editable Elementor pages.**
+<h1 align="center">360Dialog AI Theme Studio</h1>
 
-[![WordPress](https://img.shields.io/badge/WordPress-6.3%2B-blue.svg)](https://wordpress.org/)
-[![PHP](https://img.shields.io/badge/PHP-8.0%2B-777BB4.svg)](https://www.php.net/)
-[![Elementor](https://img.shields.io/badge/Elementor-3.16%2B-92003B.svg)](https://elementor.com/)
-[![License](https://img.shields.io/badge/License-GPL--2.0--or--later-green.svg)](https://www.gnu.org/licenses/gpl-2.0.html)
+<p align="center">
+  <strong>From a brief and a few images → a complete Elementor site you can actually edit.</strong><br>
+  Native Flexbox containers · Global design tokens · SEO that plays nice · Drafts until you say publish.
+</p>
 
-AI Theme Studio is a WordPress plugin that plans, designs, and builds real Elementor documents from your project description and reference images. The output is not static HTML or screenshots — it is Flexbox containers, native widgets, global colors/typography, menus, SEO meta, and draft pages you can preview, edit, and publish when you are ready.
+<p align="center">
+  <a href="https://wordpress.org/"><img src="https://img.shields.io/badge/WordPress-6.3%2B-21759B?style=for-the-badge&logo=wordpress&logoColor=white" alt="WordPress 6.3+"></a>
+  <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP 8.0+"></a>
+  <a href="https://elementor.com/"><img src="https://img.shields.io/badge/Elementor-3.16%2B-92003B?style=for-the-badge&logo=elementor&logoColor=white" alt="Elementor 3.16+"></a>
+  <a href="https://www.gnu.org/licenses/gpl-2.0.html"><img src="https://img.shields.io/badge/License-GPL--2.0-4CAF50?style=for-the-badge" alt="GPL-2.0"></a>
+</p>
 
-**Author:** [Masoud Nasrollahi Far](https://github.com/mnsise) · **Site:** [360dialog.ir](https://360dialog.ir/) · **Repository:** [github.com/mnsise/ai-theme-studio](https://github.com/mnsise/ai-theme-studio)
-
----
-
-## Why this plugin
-
-Most AI “website builders” dump fragile markup into WordPress. AI Theme Studio takes a different approach:
-
-| Principle | What it means for you |
-| --- | --- |
-| **Native Elementor output** | Pages open in Elementor like anything you built by hand — containers, widgets, global styles. |
-| **AI never executes code** | Models return structured JSON only. Deterministic plugin code validates it and writes Elementor documents. |
-| **Honest by design** | No fake Lighthouse scores, invented testimonials, or silent failures. Missing Vision, forms, or Pro features are reported clearly. |
-| **Safe by default** | Everything starts as drafts. Existing menus and your Elementor edits are never overwritten without explicit confirmation. Backups are kept. |
-| **SEO that cooperates** | Writes into Yoast, Rank Math, SEOPress, or The SEO Framework when present — without duplicating meta in `<head>`. |
-
----
-
-## Features
-
-### Plan → design → build
-- Analyzes your brief (business, audience, tone, goals) and optional reference images
-- Proposes a **sitemap you can review and edit** before pages are generated
-- Creates a **design system** (WCAG-aware colors, typography, spacing) and registers Elementor Global styles
-- Builds each page with **Flexbox containers and native Elementor widgets**
-- Generates header, footer, navigation, and a 404 page
-
-### Images with roles, not guesswork
-Upload logos, design inspiration, products, team photos, or hero images. Assign a role to each file. Inspiration/sample images inform style only and are **not** placed on the site. Trademarked brands in uploads are treated as inspiration and called out honestly.
-
-### SEO & quality
-- Single H1 per page, sensible heading hierarchy, internal linking, orphan-page checks
-- Meta titles/descriptions via popular SEO plugins (or built-in output when none is active)
-- Real-world JSON-LD only from data you provided (`Organization`, `WebSite`, `BreadcrumbList`)
-- Static performance audit plus optional **live PageSpeed Insights** for published URLs — scores are never fabricated
-
-### Multilingual studio & site content
-- Plugin UI ships with **Persian source strings** and a full **English (`en_US`)** translation. Set WordPress (or your user profile) language to English to use the English UI.
-- Generated site language is chosen per project (`fa`, `en`, `ar`, and more) with automatic RTL/LTR.
-
-### Providers you already use
-OpenAI · Anthropic Claude · Google Gemini · any **OpenAI-compatible** HTTPS endpoint (OpenRouter, local gateways, etc.)
-
-API keys are stored encrypted (AES-256-CBC + HMAC). You can also define keys in `wp-config.php` so they never sit in the database.
+<p align="center">
+  <a href="#-quick-start">Quick start</a> ·
+  <a href="#-why-it-s-different">Why different</a> ·
+  <a href="#-features">Features</a> ·
+  <a href="#-how-it-works">Pipeline</a> ·
+  <a href="#-ai-providers">Providers</a> ·
+  <a href="#-docs">Docs</a> ·
+  <a href="https://360dialog.ir/">360dialog.ir</a>
+</p>
 
 ---
 
-## How it works
+## ✨ What you get
 
-```text
-Brief + images  →  Requirements & image analysis  →  Sitemap (human review)
-        →  Design system  →  Page content (JSON)  →  Elementor documents
-        →  SEO & performance checks  →  Drafts  →  Explicit publish
+AI Theme Studio is a WordPress plugin that **plans, designs, and builds real Elementor documents** from your project description and reference images.
+
+| Not this | This |
+| :---: | :---: |
+| Static HTML dumps | Native Elementor pages |
+| Locked “AI themes” | Fully editable widgets & containers |
+| Fake Lighthouse scores | Honest audits + live PageSpeed |
+| Silent overwrites | Drafts, backups, explicit confirm |
+
+**Author:** [Masoud Nasrollahi Far](https://github.com/mnsise) · **Product site:** [360dialog.ir](https://360dialog.ir/)
+
+---
+
+## 🚀 Quick start
+
+```bash
+# 1. Install Elementor (3.16+)
+# 2. Copy this folder → wp-content/plugins/ai-theme-studio
+# 3. Activate “360Dialog AI Theme Studio”
+# 4. Theme Studio → Settings → provider + API key → Connection test
+# 5. New project → describe → generate → review → publish
 ```
 
-1. **New project** — Describe the site, pick language/direction, business type, colors, fonts, density, required pages, and optional real contact details.
-2. **Images** — Up to 10 images (JPEG/PNG/WebP). Roles: logo, inspiration, product, team, hero, gallery, and more.
-3. **Generate** — Pipeline runs in resumable steps (cancel / continue / auto-retry on 429/5xx). Live progress in the studio UI.
-4. **Review** — Preview drafts, edit in Elementor, regenerate a page or a single section, restore from history.
-5. **Menu** — Preview and apply a project menu. Theme menu locations are never replaced without your OK.
-6. **Publish** — Explicit confirmation only. Optional: front page, custom 404, global kit styles (with backup), Elementor Pro Theme Builder.
-
-Deep dive: [Architecture](docs/ARCHITECTURE.md) · [User guide](docs/README.md) · [QA checklist](docs/QA-CHECKLIST.md) · [Lighthouse CI](docs/LIGHTHOUSE.md) · [Testing](docs/TESTING.md)
-
----
-
-## Requirements
-
-| Requirement | Minimum | Notes |
-| --- | --- | --- |
-| PHP | 8.0 | Tested on 8.0, 8.2, 8.5 |
-| WordPress | 6.3 | |
-| Elementor (free) | 3.16 | Flexbox Container recommended |
-| Elementor Pro | Optional | Site-wide Theme Builder (header/footer) |
-| Permalinks | Post name recommended | Better URLs and SEO |
-
-Without Elementor, the plugin activates and settings work, but site generation is refused with a clear message — no half-built pages.
-
----
-
-## Installation
-
-1. Install and activate **Elementor** (3.16+).
-2. Copy this folder to `wp-content/plugins/ai-theme-studio`, or upload a zip via **Plugins → Add New**.
-3. Activate **360Dialog AI Theme Studio**.
-4. Go to **Theme Studio → Settings**, choose a provider, enter the API key, and run **Connection test**.
-5. Check **Theme Studio → System status**, then start a **New project**.
-
-### Optional `wp-config.php` keys
+Optional keys in `wp-config.php`:
 
 ```php
 define( 'ATS_API_KEY', 'sk-...' );
-define( 'ATS_PAGESPEED_API_KEY', '...' ); // optional, for live PageSpeed tests
+define( 'ATS_PAGESPEED_API_KEY', '...' ); // live PageSpeed tests
 ```
 
-### Development tooling
+<details>
+<summary><strong>Requirements</strong></summary>
 
-`vendor/`, `tests/`, `node_modules/`, and Composer/npm manifests are for development. They are not required in a production zip.
+| | Minimum | Notes |
+| --- | --- | --- |
+| PHP | 8.0 | Tested 8.0 / 8.2 / 8.5 |
+| WordPress | 6.3 | |
+| Elementor | 3.16 free | Flexbox Container recommended |
+| Elementor Pro | Optional | Site-wide Theme Builder |
+| Permalinks | Post name | Recommended for SEO |
 
-```bash
-composer install
-npm install
-npm run test:unit
-npm run i18n:build-en   # rebuild English gettext catalogs
+Without Elementor the plugin still activates — generation is refused with a clear message (no half-built pages).
+
+</details>
+
+---
+
+## 💎 Why it's different
+
+| Principle | What it means |
+| --- | --- |
+| **Native Elementor** | Opens like anything you built by hand — containers, widgets, globals. |
+| **AI never runs code** | Models return JSON only. Plugin code validates & writes documents. |
+| **Honest by design** | No invented testimonials, fake scores, or silent Vision failures. |
+| **Safe by default** | Drafts first. Menus & your edits never overwritten without OK + backup. |
+| **SEO that cooperates** | Writes into Yoast / Rank Math / SEOPress / TSF — no duplicate `<head>` meta. |
+
+---
+
+## 🧩 Features
+
+### Plan → design → build
+- Brief analysis (business, audience, tone, goals) + optional reference images
+- **Editable sitemap** before any page is generated
+- **Design system** with WCAG-aware colors → Elementor Globals
+- Pages as **Flexbox + native widgets** (header, footer, nav, 404 included)
+
+### Images with roles
+Logo · inspiration · product · team · hero · gallery…  
+Inspiration stays inspiration — not dropped onto the live site. Brand marks in uploads are called out honestly.
+
+### SEO & quality
+- One H1, clean heading hierarchy, internal links, orphan checks
+- Meta via your SEO plugin (or built-in when none is active)
+- JSON-LD only from **your** data (`Organization`, `WebSite`, `BreadcrumbList`)
+- Static performance audit + optional **live PageSpeed Insights**
+
+### Languages
+- Studio UI: Persian source + full **English (`en_US`)** — set WP/user language to English
+- Generated site: `fa` / `en` / `ar` / … with automatic RTL · LTR
+
+---
+
+## 🔄 How it works
+
+```text
+┌─────────┐   ┌──────────┐   ┌─────────┐   ┌────────┐   ┌───────────┐   ┌─────────┐
+│  Brief  │ → │ Analyze  │ → │ Sitemap │ → │ Design │ → │  Pages +  │ → │ Publish │
+│ + images│   │ + Vision │   │ review  │   │ system │   │ Elementor │   │  (you)  │
+└─────────┘   └──────────┘   └─────────┘   └────────┘   └───────────┘   └─────────┘
 ```
 
----
-
-## Privacy & data sent to AI
-
-**Sent (only what you put in the project):** project description, design preferences, business/contact fields you entered, and reference images when the model supports vision.
-
-**Never sent:** API keys, WordPress users, admin email, unrelated site content, or server credentials.
-
-PageSpeed tests send the **public page URL** to Google PageSpeed Insights.
-
-- [OpenAI Privacy](https://openai.com/policies/privacy-policy)
-- [Anthropic Privacy](https://www.anthropic.com/legal/privacy)
-- [Google Privacy](https://policies.google.com/privacy)
+1. **Project** — description, language, type, colors, fonts, pages, real contact details  
+2. **Images** — up to 10 (JPEG / PNG / WebP) with roles  
+3. **Generate** — resumable pipeline, cancel / continue, retry on 429 / 5xx  
+4. **Review** — preview, edit in Elementor, regenerate page or one section, restore history  
+5. **Menu** — apply project menu; theme locations never replaced without consent  
+6. **Publish** — explicit confirm only (front page, 404, globals, Pro Theme Builder optional)
 
 ---
 
-## FAQ
+## 🤖 AI providers
 
-**Is Elementor Pro required?**  
-No. Without Pro, header and footer are editable Elementor templates shown on generated (Canvas) pages. With Pro, you can activate them site-wide via Theme Builder.
+| Provider | Vision | Notes |
+| --- | :---: | --- |
+| **OpenAI** | ✅ | Default · JSON mode |
+| **Anthropic Claude** | ✅ | Claude 3+ |
+| **Google Gemini** | ✅ | JSON mime type |
+| **OpenAI-compatible** | depends | OpenRouter, local gateways — **HTTPS only** |
 
-**What if my model does not support images?**  
-Image analysis is skipped and reported honestly. Images are used only according to the roles you assign.
+Keys are encrypted at rest (AES-256-CBC + HMAC). Prefer `ATS_API_KEY` in `wp-config.php` if you want zero DB storage.
 
-**Will regeneration overwrite my Elementor edits?**  
-Not without confirmation. Edited pages/sections return a clear conflict; confirming saves a backup first. Restore from History anytime.
+<details>
+<summary><strong>Privacy — what leaves your site</strong></summary>
 
-**Does the plugin guarantee Lighthouse scores?**  
-No. Internal checks are static risk signals. Real scores come from PageSpeed Insights or [Lighthouse CI](docs/LIGHTHOUSE.md). Hosting, cache, theme, and other plugins still matter.
+**Sent:** project brief, design prefs, contact fields you entered, reference images (if Vision is on).  
 
-**English UI?**  
-Set WordPress or your user language to **English (United States)**. Content language for the generated site is chosen separately in the project form.
+**Never sent:** API keys, WP users, admin email, unrelated content, server secrets.  
 
----
+PageSpeed sends the **public URL** only.  
+[OpenAI](https://openai.com/policies/privacy-policy) · [Anthropic](https://www.anthropic.com/legal/privacy) · [Google](https://policies.google.com/privacy)
 
-## Known limitations (honest)
-
-- The plugin **does not generate images**; it only uses uploads you provide.
-- Contact forms use Contact Form 7 / WPForms when available; otherwise contact details (or clearly marked placeholders) — no fake broken forms.
-- Without Elementor Pro, blog singles/archives use the active theme templates.
-- Content quality depends on the model; always review legal claims, prices, and contact details before publish.
-- If `DISABLE_WP_CRON` is set, keep the project screen open or configure a real system cron so the pipeline can advance.
+</details>
 
 ---
 
-## Developer hooks
+## ❓ FAQ
+
+<details>
+<summary><strong>Is Elementor Pro required?</strong></summary>
+No. Without Pro, header/footer are editable templates on generated Canvas pages. With Pro you can go site-wide via Theme Builder.
+</details>
+
+<details>
+<summary><strong>What if my model has no vision?</strong></summary>
+Analysis is skipped and reported honestly. Images follow the roles you set.
+</details>
+
+<details>
+<summary><strong>Will regen wipe my Elementor edits?</strong></summary>
+Not without confirmation. Backups first; restore from History anytime.
+</details>
+
+<details>
+<summary><strong>Lighthouse score guarantee?</strong></summary>
+No. Internal checks are risk signals. Real numbers = PageSpeed or <a href="docs/LIGHTHOUSE.md">Lighthouse CI</a>. Hosting still matters.
+</details>
+
+<details>
+<summary><strong>English UI?</strong></summary>
+Set site or user language to <strong>English (United States)</strong>. Site content language is chosen per project.
+</details>
+
+---
+
+## ⚠️ Honest limits
+
+- Does **not** generate images — only your uploads  
+- Forms: CF7 / WPForms if present; otherwise real contact info or marked placeholders  
+- Without Pro, blog singles/archives use the active theme  
+- Always human-review legal claims, prices, and contact details  
+- If `DISABLE_WP_CRON` is on, keep the project screen open or use real system cron  
+
+---
+
+## 🛠 Developers
 
 | Hook | Type | Purpose |
 | --- | --- | --- |
-| `ats_ai_provider` | filter | Swap in a custom `ProviderInterface` (e.g. corporate proxy) |
-| `ats_prompt_template` | filter | Override `prompts/*.md` templates |
-| `ats_capability` | filter | Adjust capability checks per action |
+| `ats_ai_provider` | filter | Custom `ProviderInterface` (corporate proxy, etc.) |
+| `ats_prompt_template` | filter | Override `prompts/*.md` |
+| `ats_capability` | filter | Capability map per action |
+
+```bash
+composer install && npm install
+npm run test:unit
+npm run i18n:build-en
+```
+
+`vendor/`, `tests/`, and `node_modules/` are for development — not required in a production zip.
 
 ---
 
-## Uninstall
+## 📚 Docs
 
-By default, plugin data is kept. If you enable **Delete data on uninstall**, plugin tables, projects, and settings are removed.
-
-**Generated pages, menus, media, and Elementor templates are your site content and are never deleted by the plugin.**
+| Doc | Topic |
+| --- | --- |
+| [Architecture](docs/ARCHITECTURE.md) | Pipeline, data model, safety rules |
+| [User guide](docs/README.md) | Install & day-to-day use |
+| [QA checklist](docs/QA-CHECKLIST.md) | Manual QA |
+| [Lighthouse CI](docs/LIGHTHOUSE.md) | Real performance runs |
+| [Testing](docs/TESTING.md) | Unit & integration |
 
 ---
 
-## License
+## 🗑 Uninstall
 
-GPL-2.0-or-later — see the [GNU GPL v2](https://www.gnu.org/licenses/gpl-2.0.html).
+Plugin data is kept by default. Enable **Delete data on uninstall** to drop tables / projects / settings.
+
+**Generated pages, menus, media, and Elementor templates are your content — never deleted by the plugin.**
+
+---
+
+## 📄 License
+
+**GPL-2.0-or-later** — [GNU GPL v2](https://www.gnu.org/licenses/gpl-2.0.html)
 
 ---
 
 <p align="center">
-  Built for people who want AI speed <em>and</em> Elementor control — without pretending the hard parts don’t exist.
+  <sub>AI speed + Elementor control — without pretending the hard parts don’t exist.</sub><br>
+  <a href="https://github.com/mnsise/ai-theme-studio">github.com/mnsise/ai-theme-studio</a>
 </p>
