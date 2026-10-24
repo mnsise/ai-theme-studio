@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-10-22 09:48+0000\n"
+"POT-Creation-Date: 2026-10-24 06:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Domain: ai-theme-studio\n"
 "X-Generator: extract-i18n.mjs\n"
@@ -141,6 +141,10 @@ msgstr ""
 msgid "ارتباط با سرویس هوش مصنوعی برقرار نشد: %s"
 msgstr ""
 
+#: admin/views/app.php:16
+msgid "از توضیح متنی و تصاویر مرجع تا سایت قابل‌ویرایش در المنتور."
+msgstr ""
+
 #: includes/Elementor/Widgets/NavMenu.php:104
 #: includes/Elementor/Widgets/PostsGrid.php:111
 msgid "استایل"
@@ -150,12 +154,12 @@ msgstr ""
 msgid "استفاده از حالت خروجی JSON سرویس (در صورت پشتیبانی)"
 msgstr ""
 
-#: includes/Admin/AdminPage.php:63
+#: includes/Admin/AdminPage.php:78
 msgid "استودیو قالب"
 msgstr ""
 
-#: admin/views/app.php:11
-#: includes/Admin/AdminPage.php:62
+#: admin/views/app.php:14
+#: includes/Admin/AdminPage.php:77
 msgid "استودیو قالب هوشمند"
 msgstr ""
 
@@ -271,7 +275,7 @@ msgstr ""
 msgid "این رنگ‌ها به‌عنوان رنگ‌های Global المنتور با پیشوند ATS ثبت شده‌اند و رنگ‌های فعلی سایت تغییر نکرده‌اند. اعمال آن‌ها به‌عنوان رنگ‌های اصلی سایت در مرحله انتشار و با تأیید شما انجام می‌شود."
 msgstr ""
 
-#: admin/views/app.php:15
+#: admin/views/app.php:21
 msgid "این صفحه به جاوااسکریپت نیاز دارد."
 msgstr ""
 
@@ -439,7 +443,7 @@ msgstr ""
 
 #: admin/js/app.js:261
 #: admin/js/app.js:586
-#: includes/Admin/AdminPage.php:72
+#: includes/Admin/AdminPage.php:87
 msgid "پروژه جدید"
 msgstr ""
 
@@ -660,7 +664,7 @@ msgid "تماس"
 msgstr ""
 
 #: admin/js/app.js:265
-#: includes/Admin/AdminPage.php:73
+#: includes/Admin/AdminPage.php:88
 msgid "تنظیمات"
 msgstr ""
 
@@ -867,7 +871,7 @@ msgid "داده نقشه سایت نامعتبر است."
 msgstr ""
 
 #: admin/js/app.js:260
-#: includes/Admin/AdminPage.php:71
+#: includes/Admin/AdminPage.php:86
 msgid "داشبورد"
 msgstr ""
 
@@ -887,7 +891,7 @@ msgstr ""
 msgid "در حال بارگذاری %s…"
 msgstr ""
 
-#: admin/views/app.php:13
+#: admin/views/app.php:19
 msgid "در حال بارگذاری…"
 msgstr ""
 
@@ -920,7 +924,7 @@ msgid "درخواست توسط فیلتر ایمنی Gemini مسدود شد (%s)
 msgstr ""
 
 #: admin/js/app.js:369
-#: includes/Admin/AdminPage.php:93
+#: includes/Admin/AdminPage.php:108
 msgid "دسترسی کافی ندارید."
 msgstr ""
 
@@ -1123,7 +1127,7 @@ msgstr ""
 msgid "شرح"
 msgstr ""
 
-#: includes/Admin/AdminPage.php:135
+#: includes/Admin/AdminPage.php:156
 msgid "شروع"
 msgstr ""
 
@@ -1818,7 +1822,7 @@ msgstr ""
 
 #: admin/js/app.js:262
 #: admin/js/app.js:361
-#: includes/Admin/AdminPage.php:74
+#: includes/Admin/AdminPage.php:89
 msgid "وضعیت سیستم"
 msgstr ""
 

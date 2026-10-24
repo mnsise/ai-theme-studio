@@ -4,7 +4,7 @@ Tags: elementor, ai, website builder, seo, rtl, openai, gemini, claude
 Requires at least: 6.3
 Tested up to: 6.8
 Requires PHP: 8.0
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,6 +69,9 @@ Yes. Set the site or user language to English (United States). Generated site co
 No. Internal checks are static risk signals. Real scores come from PageSpeed Insights or Lighthouse CI. Hosting and other plugins still matter.
 
 == Changelog ==
+
+= 1.0.1 =
+* Modernized admin UI: teal design tokens, brand header, segmented nav, refined cards and tables.
 
 = 1.0.0 =
 * Initial release: AI-powered Elementor site generation, SEO/performance audits, Persian UI with full English (en_US) translation.

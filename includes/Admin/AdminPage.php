@@ -49,8 +49,23 @@ class AdminPage {
 	public function register(): void {
 		add_action( 'admin_menu', array( $this, 'menu' ) );
 		add_action( 'admin_enqueue_scripts', array( $this, 'enqueue' ) );
+		add_filter( 'admin_body_class', array( $this, 'body_class' ) );
 		add_filter( 'plugin_action_links_' . plugin_basename( ATS_FILE ), array( $this, 'action_links' ) );
 		add_action( 'admin_notices', array( $this, 'environment_notice' ) );
+	}
+
+	/**
+	 * Mark plugin screens so admin CSS can restyle the page chrome.
+	 *
+	 * @param string $classes Body classes.
+	 * @return string
+	 */
+	public function body_class( string $classes ): string {
+		$screen = function_exists( 'get_current_screen' ) ? get_current_screen() : null;
+		if ( $screen && in_array( $screen->id, $this->hooks, true ) ) {
+			$classes .= ' ats-admin-screen';
+		}
+		return $classes;
 	}
 
 	/**
@@ -107,7 +122,13 @@ class AdminPage {
 		$page  = isset( $_GET['page'] ) ? sanitize_key( wp_unslash( $_GET['page'] ) ) : self::SLUG; // phpcs:ignore WordPress.Security.NonceVerification.Recommended
 		$route = self::SLUG === $page ? '' : substr( $page, strlen( self::SLUG ) + 1 );
 
-		wp_enqueue_style( 'ats-admin', ATS_URL . 'admin/css/app.css', array(), ATS_VERSION );
+		wp_enqueue_style(
+			'ats-admin-fonts',
+			'https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap',
+			array(),
+			null
+		);
+		wp_enqueue_style( 'ats-admin', ATS_URL . 'admin/css/app.css', array( 'ats-admin-fonts' ), ATS_VERSION );
 		wp_enqueue_script( 'ats-admin', ATS_URL . 'admin/js/app.js', array( 'wp-api-fetch', 'wp-i18n' ), ATS_VERSION, true );
 		wp_set_script_translations( 'ats-admin', 'ai-theme-studio', ATS_DIR . 'languages' );
 		wp_localize_script(

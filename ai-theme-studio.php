@@ -3,7 +3,7 @@
  * Plugin Name:       360Dialog AI Theme Studio
  * Plugin URI:        https://360dialog.ir/
  * Description:       Build a complete, SEO-aware, fully editable Elementor website from a written brief and reference images — powered by AI.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Requires at least: 6.3
  * Requires PHP:      8.0
  * Author:            Masoud Nasrollahi far
@@ -17,7 +17,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'ATS_VERSION', '1.0.0' );
+define( 'ATS_VERSION', '1.0.1' );
 define( 'ATS_DB_VERSION', '1.0.0' );
 define( 'ATS_FILE', __FILE__ );
 define( 'ATS_DIR', plugin_dir_path( __FILE__ ) );

@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: AI Theme Studio 1.0.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-10-22 09:48+0000\n"
-"PO-Revision-Date: 2026-10-22 09:48+0000\n"
+"POT-Creation-Date: 2026-10-24 06:55+0000\n"
+"PO-Revision-Date: 2026-10-24 06:55+0000\n"
 "Last-Translator: AI Theme Studio\n"
 "Language-Team: English\n"
 "Language: en_US\n"
@@ -143,6 +143,10 @@ msgstr "Continue?"
 msgid "ارتباط با سرویس هوش مصنوعی برقرار نشد: %s"
 msgstr "Could not connect to the AI service: %s"
 
+#: admin/views/app.php:16
+msgid "از توضیح متنی و تصاویر مرجع تا سایت قابل‌ویرایش در المنتور."
+msgstr "From a written brief and reference images to an editable Elementor site."
+
 #: includes/Elementor/Widgets/NavMenu.php:104
 #: includes/Elementor/Widgets/PostsGrid.php:111
 msgid "استایل"
@@ -152,12 +156,12 @@ msgstr "Style"
 msgid "استفاده از حالت خروجی JSON سرویس (در صورت پشتیبانی)"
 msgstr "Use the service’s JSON output mode (if supported)"
 
-#: includes/Admin/AdminPage.php:63
+#: includes/Admin/AdminPage.php:78
 msgid "استودیو قالب"
 msgstr "Theme Studio"
 
-#: admin/views/app.php:11
-#: includes/Admin/AdminPage.php:62
+#: admin/views/app.php:14
+#: includes/Admin/AdminPage.php:77
 msgid "استودیو قالب هوشمند"
 msgstr "AI Theme Studio"
 
@@ -273,7 +277,7 @@ msgstr "This section was edited in Elementor. Regenerating will replace those ed
 msgid "این رنگ‌ها به‌عنوان رنگ‌های Global المنتور با پیشوند ATS ثبت شده‌اند و رنگ‌های فعلی سایت تغییر نکرده‌اند. اعمال آن‌ها به‌عنوان رنگ‌های اصلی سایت در مرحله انتشار و با تأیید شما انجام می‌شود."
 msgstr "These colors were registered as Elementor Global colors with the ATS prefix; the site’s current colors were not changed. Applying them as primary site colors happens at publish time with your confirmation."
 
-#: admin/views/app.php:15
+#: admin/views/app.php:21
 msgid "این صفحه به جاوااسکریپت نیاز دارد."
 msgstr "This page requires JavaScript."
 
@@ -441,7 +445,7 @@ msgstr "Project not found."
 
 #: admin/js/app.js:261
 #: admin/js/app.js:586
-#: includes/Admin/AdminPage.php:72
+#: includes/Admin/AdminPage.php:87
 msgid "پروژه جدید"
 msgstr "New project"
 
@@ -662,7 +666,7 @@ msgid "تماس"
 msgstr "Contact"
 
 #: admin/js/app.js:265
-#: includes/Admin/AdminPage.php:73
+#: includes/Admin/AdminPage.php:88
 msgid "تنظیمات"
 msgstr "Settings"
 
@@ -869,7 +873,7 @@ msgid "داده نقشه سایت نامعتبر است."
 msgstr "Sitemap data is invalid."
 
 #: admin/js/app.js:260
-#: includes/Admin/AdminPage.php:71
+#: includes/Admin/AdminPage.php:86
 msgid "داشبورد"
 msgstr "Dashboard"
 
@@ -889,7 +893,7 @@ msgstr "Running"
 msgid "در حال بارگذاری %s…"
 msgstr "Loading %s…"
 
-#: admin/views/app.php:13
+#: admin/views/app.php:19
 msgid "در حال بارگذاری…"
 msgstr "Loading…"
 
@@ -922,7 +926,7 @@ msgid "درخواست توسط فیلتر ایمنی Gemini مسدود شد (%s)
 msgstr "Request blocked by the Gemini safety filter (%s)."
 
 #: admin/js/app.js:369
-#: includes/Admin/AdminPage.php:93
+#: includes/Admin/AdminPage.php:108
 msgid "دسترسی کافی ندارید."
 msgstr "You do not have sufficient permissions."
 
@@ -1125,7 +1129,7 @@ msgstr "Intensity"
 msgid "شرح"
 msgstr "Description"
 
-#: includes/Admin/AdminPage.php:135
+#: includes/Admin/AdminPage.php:156
 msgid "شروع"
 msgstr "Start"
 
@@ -1823,7 +1827,7 @@ msgstr "Status"
 
 #: admin/js/app.js:262
 #: admin/js/app.js:361
-#: includes/Admin/AdminPage.php:74
+#: includes/Admin/AdminPage.php:89
 msgid "وضعیت سیستم"
 msgstr "System status"
 
